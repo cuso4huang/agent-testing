@@ -1,5 +1,7 @@
 # AI 智能体测试：研究空白与可实施项目方向
 
+> 2026-08-13 扩展证据与八类方法比较见 [`2024-2026-expanded-agent-testing-review.md`](./2024-2026-expanded-agent-testing-review.md)。
+
 > 依据 2020–2026 文献证据整理，最后更新：2026-07-23。选题优先考虑可在一学期内形成可运行系统、可重复实验、论文图表和简历成果，而不是只提出概念框架。
 
 ## 一、研究空白的优先级
@@ -534,3 +536,11 @@ R(t, f, λ, ε, k)
 - 报告总成本、每成功成本和 p95 延迟；
 - 将规则 oracle 与人工校准作为高风险结论的底座；
 - 对新的 LLM judge、模拟器或公开预印本保持明确证据等级。
+
+## 四、2026-08-14 新证据对选题的影响
+
+- **ChaosAgent** 应采用 AgentChaos 的 trigger verification，并同时加入 MAS-FIRE 的语义/协调故障；主要指标增加 fault-trigger coverage 和 cascade radius。
+- **HybridTrajectoryJudge** 应把 output-only 与 full-trace 作为实验变量，并比较 StepFinder 式轻量筛查、VerifyMAS 式 hypothesis oracle 与 REFLECT 式重放验证。
+- **TraceOps** 应实现最小必要 trace 与分级升级：低成本时序检测先筛查，高不确定案例再调用多 Judge 或 counterfactual replay，同时测脱敏导致的诊断损失。
+- **ContractMAS** 应区分源头错误、决定性步骤、症状出现点和恢复责任，避免把晚期 verifier 自动标成根因。
+- 所有自动恢复实验都应固定失败子集、限制一次重跑、保留人工/策略审批，并用组件消融拆分“归因、修复提示和额外计算”的贡献。

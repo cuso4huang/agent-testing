@@ -1,5 +1,7 @@
 # AI 智能体测试与质量保障：系统化文献综述
 
+> 2024–2026 扩展证据、八类方法谱系及 2025 年后新增工作见 [`2024-2026-expanded-agent-testing-review.md`](./2024-2026-expanded-agent-testing-review.md)。
+
 > **更新提示（2026-08-13）：** 新增动态测试生成、灰盒模糊测试、agentic oracle、轨迹回归及 USENIX Security 2026 安全测试进展，见 `research/2026-08-13-agent-testing-update.md`。本文原有 40 篇核心语料与统计口径保持不变。
 
 > 检索截止：2026-07-23。正文中的方括号为 `research/references.bib` 的 BibTeX 引文键。
@@ -635,3 +637,9 @@ AI 智能体测试的核心单位是“有状态、可行动、会产生副作�
 - AgentSpec 的正式接收身份已核验，但 DOI 尚未核验，因此 BibTeX 不含 DOI；
 - SafeAgentBench 与 Agent-SafetyBench 按当前可核验的 arXiv 身份引用；
 - 模型/API/网站会变化，所有性能数字均是论文特定时间、模型与脚手架的快照。
+
+## 17. 2026-08-14 测试方法与故障诊断全文更新
+
+本轮新增 9 篇全文证据，显示 Agent 测试正在形成三层方法栈：AgentChaos、MAS-FIRE、OrchestraBench 负责可控注错；Who Broke、VerifyMAS、StepFinder 负责责任组件和决定步骤定位；REFLECT、TraceElephant 用重放和完整可观测性验证归因；AgentDebugX 则把采集、诊断和受控恢复连接为工程闭环。
+
+这批证据强化了四点结论：注错实验必须验证故障是否实际触发；最终成功率之外应报告传播、恢复和定位；LLM Judge 的叙述不能等同因果证据；trace 可见度本身是评测条件，并与隐私形成直接权衡。详细方法表、数值来源、版本冲突和研究空白见 `research/2026-08-14-agent-testing-methods-fulltext-review.md`。

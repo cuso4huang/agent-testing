@@ -169,6 +169,37 @@
 - 核验：ATA、SIRAJ、Les Dissonances 的 DOI 在 Crossref/OpenAlex 完全一致；ACL survey 由 ACL Anthology/Crossref 核验，OpenAlex 请求遇到 HTTP 429；VeriGrey/FLARE/LogicHunter 未获得精确 Crossref 记录，因此保持 arXiv 身份，不把模糊匹配当正式版本。
 - 去重：正式版本与对应预印本视为同一工作；本次增量不改变原 40 篇核心语料统计，详情见 `research/2026-08-13-agent-testing-update.md`。
 
+## 综述论文专项检索（2026-08-13）
+
+- 研究问题：哪些综述、系统综述和 SoK 能高质量覆盖 LLM 智能体评测、测试、benchmark 与安全验证？哪些提供开放全文和作者配套 GitHub？
+- 查询：`survey evaluation LLM-based agents`、`evaluation and benchmarking LLM agents survey`、`systematic review agentic AI evaluation testing validation metrics`、`LLM agent security survey SoK evaluation`、`multi-turn agent evaluation survey`、`computer-using agent safety survey`、`multi-agent LLM evaluation survey`，并对题名定向搜索 GitHub。
+- 来源：ACL Anthology、ACM/KDD、Springer、Frontiers of Computer Science、USENIX Security、arXiv、DBLP 与作者 GitHub。
+- 核心纳入：Findings ACL 2026 agent evaluation survey、KDD 2025 evaluation/benchmarking survey、FCS 2026 evolutionary evaluation survey、Artificial Intelligence Review 2026 PRISMA review、USENIX Security 2026 agentic security SoK。
+- 专题纳入：多轮对话 agent 评测、Computer-Using Agent 安全、长期状态化 agent 安全、多智能体与 OS/GUI agent 综述。
+- 降级：主要讨论 agent 架构/应用且只有少量 evaluation 章节的通用 survey；没有透明检索方法或无法核验身份的泛化 arXiv survey。
+- 开源判定分为开放 PDF、作者维护的资料库、可执行 benchmark/代码三层，不把免费 PDF 直接写成“开源实现”。
+- 结果文件：`research/agent-evaluation-surveys-curated.md`。
+
+## 综述全文阅读与反向引用追踪（2026-08-13）
+
+- 全文阅读：Findings ACL 2026 agent evaluation survey（25 页）、KDD 2025 evaluation/benchmarking survey（11 页）、FCS 2026 evolutionary evaluation survey（30 页）、Toward Secure LLM Agents（42 页）及本地 USENIX Security 2026 Agentic AI SoK。
+- 抽取主题：task completion/state oracle、stepwise/trajectory evaluation、reference-based/reference-free judge、reliability/pass^k、robustness/fault injection、safety–utility、cost/latency、model–harness disentanglement。
+- 原始论文复核：利用本地全文和 `research/notes/` 检查 AgentBoard、ToolSandbox、AgentRewardBench、τ-bench、AppWorld、AgentDojo、AI Agents That Matter 等方法、指标、局限和开源状态。
+- 版本原则：综述只用于分类和发现；具体实验结论回到原始论文。近期预印本与正式同行评审论文分层报告。
+- 输出：`research/survey-to-primary-agent-testing-map.md`。
+
+## 2024–2026 八条文献线扩展（2026-08-13）
+
+- 时间窗：2024-01-01 至 2026-08-13；2025–2026 全面检索，2024 仅保留奠基性或直接方法价值较高的工作。
+- 八组查询：环境/状态 oracle，轨迹与 evaluator，重复可靠性与变形测试，fuzzing/覆盖/故障注入，记忆与多 session，多智能体级联，安全/权限/MCP 供应链，runtime verification/observability/生产回放。
+- 来源：Semantic Scholar、arXiv、ACL Anthology、ACM、IEEE、USENIX、NDSS、OpenReview、Springer；Crossref 与 OpenAlex 用于题名、作者、DOI 和版本关系复核。
+- 纳排边界：纳入直接测试 agent、轨迹、harness 或 agent 基础设施的研究；排除仅让 agent 测试传统软件以及只有通用能力榜单、没有测试方法贡献的工作。
+- 结果：证据库 85 篇，80 篇处于目标时间窗，60 篇为 2025–2026；45 篇全文证据、40 篇摘要证据，73 篇 Included、12 篇 Watchlist。本轮新增 21 篇全文笔记。
+- 去重：依次使用 DOI、arXiv ID、规范化题名和作者；正式版本与预印本合并到单条记录，版本关系写入 `version_status` 或备注。
+- 证据纪律：摘要级论文只支持题名、研究目标和作者明确陈述的高层结论；方法、实验数值和局限只从全文笔记进入综合报告。
+- 异常：Crossref/OpenAlex 部分批量请求出现 HTTP 429；此类记录改用 ACL Anthology、出版方或 arXiv 原始页面核验，并保留单源/未核验状态，不把模糊匹配升级为正式版本。
+- 输出：`research/2024-2026-expanded-agent-testing-review.md`、`research/evidence/evidence-table.csv`、`research/evidence/screening-log.csv`、`research/notes/` 与 `research/references.bib`。
+
 ## 2026 年最新进展补充检索（2026-07-23）
 
 - arXiv 查询式：`("LLM agents" OR "AI agents" OR agentic) AND (evaluation OR benchmark OR testing OR safety OR observability)`；类别 `cs.AI`, `cs.CL`, `cs.MA`, `cs.SE`, `cs.CR`；日期 `2026-01-01` 至 `2026-07-23`；按 relevance 排序，获得 50 条相关结果后按直接相关性筛选。
@@ -177,3 +208,37 @@
 - 补充结果：新增 12 条 watchlist 记录、12 份 PDF 和 12 条带 `note={2026 watchlist; abstract inspected only}` 的 BibTeX；它们不计入主体综述的 40 篇正式纳入语料，也不支撑全文级实验结论。
 - 2026 年专题见 `research/2026-latest-update.md`。后续应优先全文核验 Vera、ATBench、MemEvoBench、TIDE 和 ClawArena，再决定是否提升为正式纳入文献。
 - 2026 补充的标题核验脚本显示：Vera、ATBench、MemEvoBench、TIDE 的 arXiv 身份明确，但 Crossref 给出不相关的模糊最佳匹配，OpenAlex 批量请求触发 HTTP 429；因此补充文档明确标为“arXiv 身份核验、出版元数据未确认”。
+
+## 测试方法、故障诊断与 MCP 增量检索（2026-08-14）
+
+- 时间窗：2024–2026；重点查找现有 85 篇证据库之外的直接 agent 测试和测评方法。
+- 精确查询：`LLM agent testing trajectory oracle fault injection metamorphic testing`；`AI agent runtime monitoring observability reliability evaluation`；`multi agent system evaluation cascading failure fault injection LLM`；`tool using agent benchmark safety permissions MCP evaluation`。
+- 来源：新版 `conference_search.py` 汇合 Semantic Scholar、OpenAlex、Crossref、arXiv、DBLP 和开放获取解析；四组各最多 80 条，不限定会议。
+- 源异常：Semantic Scholar 三组 HTTP 429；DBLP 四组 SSL EOF。OpenAlex、Crossref、arXiv 仍成功返回，逐请求状态保存在 `tmp/literature-search-20260814/*/results.json`。
+- 重点新增：AgentChaos、AgentTelemetry、ICST `llmmas-otel`、OrchestraBench、Who Broke the System、VerifyMAS、POIROT、MCPHunt、MCPEvol-Bench、OSGuard、When the Manual Lies；并发现证据库遗漏的 2025 正式论文 SafeToolBench 与 ToolSafety。
+- DOI 核验：AgentTelemetry、ICST observability/fault-injection、When the Manual Lies、SafeToolBench、ToolSafety 均获 Crossref/OpenAlex 精确一致记录；AgentChaos 仅 OpenAlex 返回，暂为部分核验。
+- 模糊匹配处置：MCPHunt、OSGuard、POIROT、VerifyMAS 等题名查询命中不相关 Crossref 记录，未采纳为正式 DOI；`10.48550/arXiv...` 不作为同行评审证明。
+- 证据等级：本轮为发现、元数据和摘要筛选，尚未宣称阅读全文。增量证据表、综合与精读顺序见 `research/2026-08-14-agent-testing-incremental-search.md`。
+
+## 测试方法与故障诊断全文增量（2026-08-14）
+
+- 范围：2024–2026；直接测试 Agent、Agent 轨迹、harness 或多智能体基础设施。
+- 六组查询：`LLM agent fault injection chaos engineering reliability testing`；`LLM agent coverage guided greybox fuzzing metamorphic testing`；`AI agent test oracle state validation trajectory evaluation`；`LLM multi agent failure localization attribution root cause diagnosis`；`LLM agent runtime monitoring telemetry observability fault detection`；`LLM multi agent cascading failure recovery testing fault propagation`。
+- 工具与来源：`conference_search.py --start-year 2024 --end-year 2026 --limit 100 --no-conference-only`；汇合 Semantic Scholar、OpenAlex、Crossref、arXiv、DBLP 与开放获取解析。
+- 结果：六组各 100 条，共 600 条原始记录；跨查询合并并扣除原 85 条证据记录后为 502 个题名候选。人工排除传统软件 fuzzing、微服务诊断和“Agent 作为测试工具”的论文。
+- 数据源异常：Semantic Scholar 四组 HTTP 429；DBLP 五组 SSL EOF、一组 handshake timeout。请求和错误保存在 `tmp/literature-search-20260814-methods/*/results.json`。
+- 全文纳入 9 篇：AgentChaos、OrchestraBench、MAS-FIRE、Who Broke the System、VerifyMAS、AgentDebugX、REFLECT、StepFinder、Seeing the Whole Elephant。
+- 观察项：AgentTelemetry、ICST observability/fault-injection、AgentTrace、FALAT、Causal Agent Replay。前两篇 DOI 已核验但未确认合法开放全文；后三篇本轮仅使用摘要。
+- 元数据：StepFinder、TraceElephant 获 Crossref/OpenAlex 精确一致核验；AgentChaos 为论文首页+OpenAlex 支持、Crossref 待入库；预印本题名的 Crossref 模糊他文匹配全部拒绝。
+- 详细综合：`research/2026-08-14-agent-testing-methods-fulltext-review.md`。
+
+## 方法学核心范围收紧与增量复核（2026-08-14）
+
+- 核心问题收紧为“如何设计、执行和验证 Agent 测试”；能力榜单不再自动视为测试方法证据。
+- 方法约束查询：`agent AND (test oracle OR state invariant OR executable verifier)`；`agent trajectory AND (meta-evaluation OR judge calibration OR evaluator reliability)`；`agent AND (metamorphic OR differential OR regression OR mutation testing)`；`agent AND (fault injection OR chaos engineering OR counterfactual replay)`；`agent evaluation AND (variance OR confidence interval OR reproducibility OR harness)`；`agent AND (runtime verification OR telemetry OR failure detection)`。
+- 来源：Semantic Scholar、OpenAlex、Crossref、arXiv、DBLP，以及 ACL、ICSE、FSE、ASE、ISSTA、ICST、USENIX Security、NDSS 官方页面。既有批量检索中 Semantic Scholar 出现 HTTP 429、DBLP 出现 SSL EOF/timeout，因此本轮对新增正式论文使用 ACL Anthology、Crossref 与 OpenAlex 逐篇核验。
+- 分层规则：`core-method`（直接测试方法或独特 oracle/evaluator 元评测）、`supporting-benchmark`（承载独特环境或领域约束）、`background`（能力与历史背景）、`excluded`（被测对象不是 Agent 或不满足证据边界）。相关度 5/4/3/1–2 分别对应上述方法贡献强度。
+- 重标结果：证据库 102 篇，其中 core-method 42、supporting-benchmark 37、background 23；相关度为 5 分 31、4 分 11、3 分 37、2 分 23。筛选日志的 `include/exclude` 已统一为 `included/excluded`。
+- 正式增量与升级：AJ-Bench（Findings ACL 2026，10.18653/v1/2026.findings-acl.1269）、Agentic CLEAR（ACL 2026 Demo，10.18653/v1/2026.acl-demo.74）、AgentDiagnose（EMNLP 2025 Demo，10.18653/v1/2025.emnlp-demos.15）、Plan-RewardBench（ACL 2026 Long，10.18653/v1/2026.acl-long.1062）。四篇均阅读全文并由 Crossref/OpenAlex 精确核验 DOI 与题名。
+- 排除纪律：检索到的 REST API、传统软件和一般 LLM 变形测试论文如果只是“使用 Agent/LLM 生成测试”，不纳入以 Agent 为被测对象的核心库。
+- 输出：`research/2026-08-14-methodology-core-audit.md`；可复现分层规则：`research/scripts/reclassify_methodology.py`。
