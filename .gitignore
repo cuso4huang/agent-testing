@@ -2,4 +2,13 @@
 # Keep research notes, evidence tables, BibTeX, logs and reviews tracked.
 research/papers/
 .codex-data/
-/tmp/*
+tmp/*
+output/*
+.*
+
+# Generated Python caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
