@@ -1,0 +1,8 @@
+9c53f802cb0123fd512ee429c753d83d69118e33f2ceeeb140f62fe3b8197981  ../../papers/2026-Komoravolu-ATA.pdf
+d60ea831e8ee947c0cb18e4b557a37670c9d77373ebdd8eea4724808ae60fb2b  ../../papers/2026-Zhou-SIRAJ.pdf
+68670c39f8eb0f0471951b569496b83f090195291b5d530714e1c13849908b51  ../../papers/2026-Luo-AgentDoS.pdf
+d436f730e97409294c55b50637e97c3082c0f98a7508b81d76a1bed7ce2fdaae  ../../papers/2026-Li-LesDissonances.pdf
+1749efa3dbb7d90d32ce1b48c7b122c069048ce389bc1be8d7dac4bf86467967  ../../papers/2026-Tool-Selection-Prompt-Injection.pdf
+022d3771fd643d3bece04841e71331ef6963ff0eba43166849072caeb1b79508  ../../papers/2026-MemoryAgentBench.pdf
+8f407be8a7e95dcedb68f82d6b4fe2e4da2a1d692f0e8d048a18853ab715ceb3  ../../papers/2026-MobileSafetyBench.pdf
+79e491f1ae4918c0ca4cf4212184826c3654ebbee4aef360e9708b546897c419  ../../papers/2026-ProcessEvaluation.pdf

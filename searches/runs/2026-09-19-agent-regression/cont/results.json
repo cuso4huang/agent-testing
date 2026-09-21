@@ -1,0 +1,147 @@
+{
+  "search": {
+    "query": "LLM agent continuous evaluation CI regression",
+    "start_year": 2023,
+    "end_year": 2026,
+    "venues": "ICSE,FSE,ASE,ISSTA,ICST",
+    "limit": 100,
+    "peer_reviewed_conferences_only": true,
+    "searched_at": "2026-09-19T02:20:37.993139+00:00"
+  },
+  "configured": {
+    "contact_email": true,
+    "semantic_scholar_api_key": true,
+    "openalex_api_key": true,
+    "core_api_key": false,
+    "ieee_xplore_api_key": false
+  },
+  "source_errors": {
+    "dblp": "Expecting value: line 1 column 1 (char 0)",
+    "arxiv": "HTTP Error 406: Not Acceptable"
+  },
+  "requests": [
+    {
+      "source": "dblp",
+      "url": "https://dblp.org/search/publ/api?q=LLM+agent+continuous+evaluation+CI+regression&format=json&h=100&c=0",
+      "status": 200,
+      "bytes": 2979,
+      "elapsed_seconds": 0.699
+    },
+    {
+      "source": "semantic_scholar",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=LLM+agent+continuous+evaluation+CI+regression&limit=100&fields=title%2Cauthors%2Cyear%2Cvenue%2Cabstract%2CcitationCount%2CexternalIds%2Curl%2CopenAccessPdf",
+      "status": 200,
+      "bytes": 262504,
+      "elapsed_seconds": 1.732
+    },
+    {
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=LLM+agent+continuous+evaluation+CI+regression&per_page=100&filter=type%3Aarticle%2Cfrom_publication_date%3A2023-01-01%2Cto_publication_date%3A2026-12-31&api_key=%3Credacted%3E",
+      "status": 200,
+      "bytes": 2468996,
+      "elapsed_seconds": 3.152
+    },
+    {
+      "source": "crossref",
+      "url": "https://api.crossref.org/works?query.bibliographic=LLM+agent+continuous+evaluation+CI+regression&rows=100&filter=type%3Aproceedings-article%2Cfrom-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-12-31&mailto=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 470906,
+      "elapsed_seconds": 1.916
+    },
+    {
+      "source": "arxiv",
+      "url": "https://export.arxiv.org/api/query?search_query=all%3ALLM+agent+continuous+evaluation+CI+regression&start=0&max_results=100&sortBy=relevance",
+      "status": 406,
+      "error": "HTTP Error 406: Not Acceptable",
+      "elapsed_seconds": 0.461
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst62969.2025.10989038?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2643,
+      "elapsed_seconds": 0.715
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1145/3786181.3788708?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 3988,
+      "elapsed_seconds": 0.718
+    }
+  ],
+  "papers": [
+    {
+      "title": "Evaluation of the Choice of LLM in a Multi-Agent Solution for GUI-Test Generation",
+      "authors": [
+        "Stevan Tomic",
+        "Emil Alégroth",
+        "Maycel Isaac"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst62969.2025.10989038",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.4,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst62969.2025.10989038"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://bth.diva-portal.org/smash/get/diva2:1974470/FULLTEXT01",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Continuous Benchmark Generation for Evaluating Enterprise-scale LLM Agents",
+      "authors": [
+        "Divyanshu Saxena",
+        "Rishikesh Maurya",
+        "Xiao-Xuan Ou",
+        "Gagan Somashekar",
+        "Shachee Mishra Gupta",
+        "Arun Iyer",
+        "Yu Kang",
+        "Chetan Bansal",
+        "Aditya Akella",
+        "Saravan Rajmohan"
+      ],
+      "year": 2025,
+      "venue": "LLM4CODE@ICSE",
+      "doi": "10.1145/3786181.3788708",
+      "arxiv_id": "2511.10049",
+      "dblp_key": null,
+      "abstract": "The rapid adoption of AI agents across domains has made systematic evaluation crucial for ensuring their usefulness and successful production deployment. Evaluation of AI agents typically involves using a fixed set of benchmarks and computing multiple evaluation metrics for the agent. While sufficient for simple coding tasks, these benchmarks fall short for enterprise-scale agents, where services and requirements evolve continuously and ground-truth examples are sparse. We propose a process of benchmark generation that helps evolve the benchmarks as the requirements change and perform robust evaluation of evolving AI agents. We instantiate this approach for a case study of service migration from one deployment platform to another at a large public enterprise. Our approach relies on semi-structured documents where developers express the high-level intent, and uses state-of-the-art LLMs to generate benchmarks from just a small number of such documents. Overall, this process results in a maintainable evaluation framework, enabling rapid feedback on agent performance and facilitating targeted improvements.",
+      "citation_count": 3,
+      "relevance_score": 0.3333,
+      "sources": [
+        "semantic_scholar"
+      ],
+      "landing_urls": [
+        "https://www.semanticscholar.org/paper/cf5b44b37b92deb0e3bad0777857927dd5476550"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://doi.org/10.1145/3786181.3788708",
+          "source": "semantic_scholar"
+        }
+      ],
+      "version_status": "published_with_preprint",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    }
+  ]
+}

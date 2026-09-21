@@ -1,0 +1,3655 @@
+{
+  "search": {
+    "query": "LLM agent regression testing version drift behavioral differential evaluation",
+    "start_year": 2023,
+    "end_year": 2026,
+    "venues": "ICSE,FSE,ASE,ISSTA,ICST,MSR,SANER,ICSME,RE,ESEM,ISSRE",
+    "limit": 100,
+    "peer_reviewed_conferences_only": false,
+    "searched_at": "2026-09-19T02:21:22.664818+00:00"
+  },
+  "configured": {
+    "contact_email": true,
+    "semantic_scholar_api_key": true,
+    "openalex_api_key": true,
+    "core_api_key": false,
+    "ieee_xplore_api_key": false
+  },
+  "source_errors": {
+    "dblp": "Expecting value: line 1 column 1 (char 0)",
+    "arxiv": "HTTP Error 406: Not Acceptable"
+  },
+  "requests": [
+    {
+      "source": "dblp",
+      "url": "https://dblp.org/search/publ/api?q=LLM+agent+regression+testing+version+drift+behavioral+differential+evaluation&format=json&h=100&c=0",
+      "status": 200,
+      "bytes": 2980,
+      "elapsed_seconds": 0.844
+    },
+    {
+      "source": "semantic_scholar",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=LLM+agent+regression+testing+version+drift+behavioral+differential+evaluation&limit=100&fields=title%2Cauthors%2Cyear%2Cvenue%2Cabstract%2CcitationCount%2CexternalIds%2Curl%2CopenAccessPdf",
+      "status": 200,
+      "bytes": 26462,
+      "elapsed_seconds": 0.705
+    },
+    {
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=LLM+agent+regression+testing+version+drift+behavioral+differential+evaluation&per_page=100&filter=type%3Aarticle%2Cfrom_publication_date%3A2023-01-01%2Cto_publication_date%3A2026-12-31&api_key=%3Credacted%3E",
+      "status": 200,
+      "bytes": 2619827,
+      "elapsed_seconds": 2.663
+    },
+    {
+      "source": "crossref",
+      "url": "https://api.crossref.org/works?query.bibliographic=LLM+agent+regression+testing+version+drift+behavioral+differential+evaluation&rows=100&filter=type%3Aproceedings-article%2Cfrom-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-12-31&mailto=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 463044,
+      "elapsed_seconds": 2.314
+    },
+    {
+      "source": "arxiv",
+      "url": "https://export.arxiv.org/api/query?search_query=all%3ALLM+agent+regression+testing+version+drift+behavioral+differential+evaluation&start=0&max_results=100&sortBy=relevance",
+      "status": 406,
+      "error": "HTTP Error 406: Not Acceptable",
+      "elapsed_seconds": 0.568
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.48550/arxiv.2607.16024?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "elapsed_seconds": 0.743
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/aitest70988.2026.00036?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 872,
+      "elapsed_seconds": 0.785
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1145/3770854.3785688?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 4241,
+      "elapsed_seconds": 0.809
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.48550/arxiv.2505.02854?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "elapsed_seconds": 0.829
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.5220/0014320800004070?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 3349,
+      "elapsed_seconds": 0.808
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/caibda70336.2026.11621849?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 898,
+      "elapsed_seconds": 0.728
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.5220/0014146900004052?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1138,
+      "elapsed_seconds": 0.748
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/aitest70988.2026.00043?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 974,
+      "elapsed_seconds": 0.788
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/isaeece70502.2026.11635191?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 924,
+      "elapsed_seconds": 0.718
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2026.findings-acl.1457?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2445,
+      "elapsed_seconds": 0.715
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icmsci67830.2026.11469669?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1689,
+      "elapsed_seconds": 0.82
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2026.eacl-long.339?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2119,
+      "elapsed_seconds": 0.615
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/compsac69091.2026.00043?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2483,
+      "elapsed_seconds": 0.639
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.63317/4zdw5tmzx58h?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1323,
+      "elapsed_seconds": 0.616
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/aitest70988.2026.00030?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1437,
+      "elapsed_seconds": 0.679
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/smartcomp-companion70724.2026.00092?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 931,
+      "elapsed_seconds": 0.65
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icws72778.2026.00170?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1182,
+      "elapsed_seconds": 0.612
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2026.findings-acl.1890?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2409,
+      "elapsed_seconds": 0.693
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/eitce70137.2026.11634569?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1437,
+      "elapsed_seconds": 0.643
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2026.acl-long.790?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 4118,
+      "elapsed_seconds": 0.689
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icstw72326.2026.00018?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2204,
+      "elapsed_seconds": 0.612
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/sieds69358.2026.11540303?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 900,
+      "elapsed_seconds": 0.718
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2026.acl-demo.19?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2378,
+      "elapsed_seconds": 0.63
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1117/12.3123035?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1076,
+      "elapsed_seconds": 0.702
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2026.findings-acl.1934?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2453,
+      "elapsed_seconds": 0.716
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2026.acl-demo.3?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2382,
+      "elapsed_seconds": 0.821
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/isssr69973.2026.00023?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1317,
+      "elapsed_seconds": 1.012
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1145/3786167.3788430?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2435,
+      "elapsed_seconds": 0.717
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1145/3802133.3802134?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 961,
+      "elapsed_seconds": 0.725
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1145/3803437.3806717?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2119,
+      "elapsed_seconds": 0.655
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.35490/ec3.2026.372?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1180,
+      "elapsed_seconds": 0.613
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst62969.2025.10989038?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2643,
+      "elapsed_seconds": 0.78
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2025.findings-acl.1357?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2698,
+      "elapsed_seconds": 0.718
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/ase63991.2025.00051?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1078,
+      "elapsed_seconds": 0.819
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/cyber-ai66431.2025.11233474?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 933,
+      "elapsed_seconds": 0.717
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icse55347.2025.00179?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1410,
+      "elapsed_seconds": 0.717
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icce-taiwan66881.2025.11207858?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1158,
+      "elapsed_seconds": 0.715
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/ase63991.2025.00322?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1501,
+      "elapsed_seconds": 0.614
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icse55347.2025.00233?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1718,
+      "elapsed_seconds": 0.718
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/eurospw67616.2025.00031?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2002,
+      "elapsed_seconds": 0.705
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/isaes66870.2025.11274390?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1631,
+      "elapsed_seconds": 0.716
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.5753/eres.2025.16803?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2550,
+      "elapsed_seconds": 0.729
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/c366505.2025.11340287?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1442,
+      "elapsed_seconds": 0.644
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/ase63991.2025.00135?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2298,
+      "elapsed_seconds": 0.685
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/cascon66301.2025.00045?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1389,
+      "elapsed_seconds": 0.718
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/aict67988.2025.11268754?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1510,
+      "elapsed_seconds": 0.715
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1145/3703412.3703439?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2002,
+      "elapsed_seconds": 0.821
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2024.findings-acl.928?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2328,
+      "elapsed_seconds": 0.644
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1145/3644815.3644950?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2297,
+      "elapsed_seconds": 0.685
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.47472/wuf8wyey?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 942,
+      "elapsed_seconds": 0.819
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2024.emnlp-demo.31?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2783,
+      "elapsed_seconds": 0.819
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.7759/cureus.108195?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2483,
+      "elapsed_seconds": 0.646
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.3390/ijfs13040210?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2777,
+      "elapsed_seconds": 0.685
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.48550/arxiv.2606.08172?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "elapsed_seconds": 0.821
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1145/3798204?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2569,
+      "elapsed_seconds": 0.817
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.48550/arxiv.2603.03121?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "elapsed_seconds": 0.717
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/aitest70988.2026.00029?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1142,
+      "elapsed_seconds": 0.647
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.5220/0014473600004052?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2756,
+      "elapsed_seconds": 0.684
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2026.semeval-1.343?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2496,
+      "elapsed_seconds": 0.717
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icisessc68634.2026.11542788?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1332,
+      "elapsed_seconds": 0.715
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icstw72326.2026.00035?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1859,
+      "elapsed_seconds": 0.73
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/aitest70988.2026.00022?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 897,
+      "elapsed_seconds": 0.806
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.5220/0014456800004052?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1327,
+      "elapsed_seconds": 0.717
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2026.gem-main.60?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2528,
+      "elapsed_seconds": 0.818
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/aqtr70159.2026.11578025?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2022,
+      "elapsed_seconds": 0.637
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst69053.2026.00037?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 3174,
+      "elapsed_seconds": 0.621
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.5220/0014355600004052?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1424,
+      "elapsed_seconds": 0.713
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.5220/0014236700004058?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 3060,
+      "elapsed_seconds": 0.691
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/lmiat70705.2026.11682229?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 895,
+      "elapsed_seconds": 0.718
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/aitest70988.2026.00012?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1420,
+      "elapsed_seconds": 0.627
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2026.semeval-1.144?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2835,
+      "elapsed_seconds": 0.805
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/eitce70137.2026.11634532?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1041,
+      "elapsed_seconds": 0.819
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2026.semeval-1.410?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2517,
+      "elapsed_seconds": 0.741
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.5220/0014301900004058?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2566,
+      "elapsed_seconds": 1.41
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/southeastcon63549.2026.11476226?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1027,
+      "elapsed_seconds": 0.63
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.5220/0014240600004052?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2431,
+      "elapsed_seconds": 0.802
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.5220/0014456500004052?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1621,
+      "elapsed_seconds": 0.619
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/ccwc67433.2026.11393740?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1325,
+      "elapsed_seconds": 0.634
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2026.findings-acl.1660?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2302,
+      "elapsed_seconds": 0.616
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/aitest70988.2026.00019?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1824,
+      "elapsed_seconds": 0.792
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/aitest70988.2026.00011?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1390,
+      "elapsed_seconds": 0.635
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1145/3786162.3793232?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2283,
+      "elapsed_seconds": 0.696
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icws72778.2026.00112?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1039,
+      "elapsed_seconds": 0.808
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/iclad65226.2025.00033?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2578,
+      "elapsed_seconds": 0.728
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/iclad65226.2025.00013?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1588,
+      "elapsed_seconds": 0.716
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.5220/0013321900003890?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2602,
+      "elapsed_seconds": 0.717
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/satml64287.2025.00011?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1528,
+      "elapsed_seconds": 0.717
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1145/3765766.3765841?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1420,
+      "elapsed_seconds": 0.637
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.5220/0013473400003929?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2538,
+      "elapsed_seconds": 0.611
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/wi-iat67162.2025.00115?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1333,
+      "elapsed_seconds": 0.686
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2025.realm-1.6?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1088,
+      "elapsed_seconds": 0.714
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.23919/ccc64809.2025.11179521?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2012,
+      "elapsed_seconds": 0.833
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icecce67514.2025.11257953?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 934,
+      "elapsed_seconds": 0.625
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/aiiot65859.2025.11105319?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2052,
+      "elapsed_seconds": 0.706
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.5220/0013191200003890?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2657,
+      "elapsed_seconds": 0.716
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2025.wasp-main.20?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2076,
+      "elapsed_seconds": 0.668
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/bigdata66926.2025.11402340?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1244,
+      "elapsed_seconds": 0.767
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.18653/v1/2025.sciprodllm-1.3?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2331,
+      "elapsed_seconds": 0.952
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/aann66429.2025.11257602?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1073,
+      "elapsed_seconds": 0.607
+    }
+  ],
+  "papers": [
+    {
+      "title": "DiffTestGen: Change-Directed LLM-Based Testing for Exposing Behavioral Differences",
+      "authors": [
+        "Hui-Min Hu",
+        "Cristian Cadar",
+        "Michael Pradel"
+      ],
+      "year": 2026,
+      "venue": "arXiv.org",
+      "doi": "10.48550/arxiv.2607.16024",
+      "arxiv_id": "2607.16024",
+      "dblp_key": null,
+      "abstract": "As software evolves over time, it is important to ensure that any behavioral changes occur as intended by developers. A promising approach for this goal is to generate tests that expose behavioral differences between the old and new versions of a program. However, current approaches fail to trigger behavioral differences for many code changes. This paper presents~DiffTestGen, a novel change-directed, LLM-based differential testing approach specifically designed to expose behavioral differences introduced by a code change. The approach is enabled by two key contributions: First, DiffTestGen leverages static call graph analysis and project documentation to identify valid entry points for test generation and to guide the LLM toward reaching the changed code. Second, DiffTestGen iteratively improves our newly introduced union coverage metric, which combines coverage of modified code in the old and the new version, by providing targeted coverage feedback to the LLM. We evaluate DiffTestGen on two datasets comprising a total of 463 PRs. DiffTestGen exposes behavioral differences in 78.2% of the PRs while achieving an average union coverage of 90.7%. Compared with the baselines, DiffTestGen exposes 99 more PRs overall and increases code coverage by 12.5% and 15.6% percentage points, respectively. By integrating DiffTestGen with the Testora regression detector, we show that the identified behavioral differences can be used to detect regression bugs missed by the best existing approaches.",
+      "citation_count": null,
+      "relevance_score": 0.4,
+      "sources": [
+        "semantic_scholar"
+      ],
+      "landing_urls": [
+        "https://www.semanticscholar.org/paper/ecb220991fb47b80f47d95dbf1f2d4fddfb06360"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_with_preprint",
+      "access_status": "abstract_only",
+      "downloaded_file": null,
+      "download_error": "unpaywall: HTTP Error 404: Not Found"
+    },
+    {
+      "title": "Metamorphic Testing of Multi-Agent LLM Systems: A Trace-Based Behavioral Oracle Framework",
+      "authors": [
+        "Gopalakrishnan Marimuthu"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Artificial Intelligence Testing (AITest)",
+      "doi": "10.1109/aitest70988.2026.00036",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.3556,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/aitest70988.2026.00036"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Exploring Recommender System Evaluation: A Multi-Modal LLM Agent Framework for A/B Testing",
+      "authors": [
+        "Wenlin Zhang",
+        "Xiangyang Li",
+        "Qiyuan Ge",
+        "Kuicai Dong",
+        "Pengyue Jia",
+        "Xiaopeng Li",
+        "Zijian Zhang",
+        "Maolin Wang",
+        "Yichao Wang",
+        "Huifeng Guo",
+        "Ruiming Tang",
+        "Xiangyu Zhao"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1",
+      "doi": "10.1145/3770854.3785688",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.3556,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1145/3770854.3785688"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Ensuring Reproducibility in Generative AI Systems for General Use Cases: A Framework for Regression Testing and Open Datasets",
+      "authors": [
+        "Masumi Morishige",
+        "Ryo Koshihara"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "doi": "10.48550/arxiv.2505.02854",
+      "arxiv_id": "2505.02854",
+      "dblp_key": null,
+      "abstract": "Reproducibility and reliability remain pressing challenges for generative AI systems whose behavior can drift with each model update or prompt revision. We introduce GPR-bench, a lightweight, extensible benchmark that operationalizes regression testing for general purpose use cases. GPR-bench couples an open, bilingual (English and Japanese) dataset covering eight task categories (e.g., text generation, code generation, and information retrieval) and 10 scenarios in each task categories (80 total test cases for each language) with an automated evaluation pipeline that employs\"LLM-as-a-Judge\"scoring of correctness and conciseness. Experiments across three recent model versions - gpt-4o-mini, o3-mini, and o4-mini - and two prompt configurations (default versus concise-writing instruction) reveal heterogeneous quality. Our results show that newer models generally improve correctness, but the differences are modest and not statistically significant, suggesting that GPR-bench may not be sufficiently challenging to differentiate between recent model versions. In contrast, the concise-writing instruction significantly enhances conciseness (+12.37 pp, Mann-Whitney U test: p<0.001, effect size r = 0.2995) with minimal degradations on accuracy (-1.7 pp), demonstrating the effectiveness of prompt engineering. Released under the MIT License, GPR- bench lowers the barrier to initiating reproducibility monitoring and provides a foundation for community-driven extensions, while also raising important considerations about benchmark design for rapidly evolving language models.",
+      "citation_count": 2,
+      "relevance_score": 0.2889,
+      "sources": [
+        "semantic_scholar"
+      ],
+      "landing_urls": [
+        "https://www.semanticscholar.org/paper/4016c4ecc1aa82861a8a0a38cc5ee926a23419cb"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_with_preprint",
+      "access_status": "abstract_only",
+      "downloaded_file": null,
+      "download_error": "unpaywall: HTTP Error 404: Not Found"
+    },
+    {
+      "title": "Doctorina MedBench: A Dialogue-Based Benchmark and Evaluation Framework for Agent-Based Medical AI",
+      "authors": [
+        "A. Kozlova",
+        "S. Salavei",
+        "Pavel Satalkin",
+        "Hanna Plotnitskaya",
+        "Sergey Parfenyuk",
+        "Andy Nkansah"
+      ],
+      "year": 2026,
+      "venue": null,
+      "doi": null,
+      "arxiv_id": "2603.25821",
+      "dblp_key": null,
+      "abstract": "We present Doctorina MedBench, an evaluation framework for agent-based medical AI based on the simulation of physician-patient interactions. Unlike traditional medical benchmarks that rely on solving standardized test questions, the proposed approach models a multi-step clinical dialogue in which an AI system must collect medical history, analyze available synthetic attachments when present, formulate differential diagnoses, and provide diagnostic and management recommendations. System performance is evaluated across separate task-level domains, including diagnosis, differential diagnosis, treatment, safety-critical condition handling, and dialogue-step behavior; the broader D.O.T.S. framework is used as a supplementary summary for diagnosis, observations/investigations, treatment, and step count. The framework also supports testing and quality-monitoring workflows intended to identify changes in model behavior during development. It supports safety-oriented cases, category-based sampling of synthetic clinical scenarios, and regression-style comparisons across system versions. In the reported study, the analyzed paired complete-case cohort consisted of 254 physician-authored synthetic clinical cases retained from 261 attempted case identifiers. The evaluation metrics are intended for comparative research on interactive medical AI systems and for studying clinical reasoning workflows in synthetic dialogue settings. Our results suggest that simulated clinical dialogue can provide a complementary assessment setting to traditional examination-style benchmarks, while the reported findings do not establish independent clinical validity, clinical effectiveness, or readiness for real-world deployment.",
+      "citation_count": null,
+      "relevance_score": 0.2889,
+      "sources": [
+        "semantic_scholar"
+      ],
+      "landing_urls": [
+        "https://www.semanticscholar.org/paper/12faae259b83e5dee433b67fbc178c045f987ae2"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "preprint",
+      "access_status": "abstract_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Generating Synthetic Behavioral Health Data: A Multi-Agent LLM System",
+      "authors": [
+        "Dirk Maas",
+        "Maani Beigy",
+        "Laura Genga",
+        "Pieter Van Gorp"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 19th International Joint Conference on Biomedical Engineering Systems and Technologies",
+      "doi": "10.5220/0014320800004070",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.5220/0014320800004070"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "DriftBench: Detecting LLM Coding Agent Cheating via Specification-Level Constraint Drift Mutation",
+      "authors": [
+        "Fang Hao"
+      ],
+      "year": 2026,
+      "venue": "2026 6th International Conference on Artificial Intelligence, Big Data and Algorithms (CAIBDA)",
+      "doi": "10.1109/caibda70336.2026.11621849",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/caibda70336.2026.11621849"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Evaluation of Diversity in LLM-Based News Discovery through an Agent-Based System",
+      "authors": [
+        "Sergio Muñoz",
+        "Carlos Iglesias"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 18th International Conference on Agents and Artificial Intelligence",
+      "doi": "10.5220/0014146900004052",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.5220/0014146900004052"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "MASTEST: A LLM-Based Multi-Agent System For Testing RESTful APIs",
+      "authors": [
+        "Xiaoke Han",
+        "Hong Zhu"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Artificial Intelligence Testing (AITest)",
+      "doi": "10.1109/aitest70988.2026.00043",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/aitest70988.2026.00043"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Runtime Protection Practice for LLM Agent Security: An On-Demand Behavioral Sandbox Approach",
+      "authors": [
+        "Junyong Jiang"
+      ],
+      "year": 2026,
+      "venue": "2026 11th International Symposium on Advances in Electrical, Electronics and Computer Engineering (ISAEECE)",
+      "doi": "10.1109/isaeece70502.2026.11635191",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/isaeece70502.2026.11635191"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "An LLM-Embedding Semantic Adaptation Network for Post-level Semantic Drift Evaluation",
+      "authors": [
+        "Ning Chen",
+        "Mingyu Kang",
+        "Jie Li",
+        "Linyuan Lü"
+      ],
+      "year": 2026,
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+      "doi": "10.18653/v1/2026.findings-acl.1457",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2026.findings-acl.1457"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://aclanthology.org/2026.findings-acl.1457.pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "A Multi-Agent LLM-Driven Intelligent EV Charging Framework with Rag based Personalization and CGAN-Generated Behavioral Modeling",
+      "authors": [
+        "Santharam M",
+        "B. Ashok Kumar",
+        "S. Senthilrani",
+        "J. Rajeswari"
+      ],
+      "year": 2026,
+      "venue": "2026 Second International Conference on Multi-Agent Systems for Collaborative Intelligence (ICMSCI)",
+      "doi": "10.1109/icmsci67830.2026.11469669",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icmsci67830.2026.11469669"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Agent-Testing Agent: A Meta-Agent for Automated Testing and Evaluation of Conversational AI Agents",
+      "authors": [
+        "Sameer Komoravolu",
+        "Khalil Mrini"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "doi": "10.18653/v1/2026.eacl-long.339",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2026.eacl-long.339"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Multi-Agent LLM-Based Metamorphic Testing for REST APIs",
+      "authors": [
+        "Shehroz Khan",
+        "Abdullah Mughees",
+        "Gaadha Sudheerbabu",
+        "Tanwir Ahmad",
+        "Dragos Truscan"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE 50th Annual Computers, Software, and Applications Conference (COMPSAC)",
+      "doi": "10.1109/compsac69091.2026.00043",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/compsac69091.2026.00043"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Evaluation Drift in LLM Personality Induction: Are We Moving the Goalpost?",
+      "authors": [
+        "Prateek Kumar Rajput",
+        "Yewei Song",
+        "Iyiola Emmanuel Olatunji",
+        "Jacques Klein",
+        "Tegawendé Bissyande"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the Language Resources and Evaluation Conference",
+      "doi": "10.63317/4zdw5tmzx58h",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.63317/4zdw5tmzx58h"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Behavioral Regression Testing for Continuously Updated Machine Learning Models",
+      "authors": [
+        "Vinil Pasupuleti",
+        "Srinivasateja Songa",
+        "Nagesh Gulkotwar",
+        "Shyalendar Reddy Allala",
+        "Shrey Tyagi"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Artificial Intelligence Testing (AITest)",
+      "doi": "10.1109/aitest70988.2026.00030",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/aitest70988.2026.00030"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "PhD Forum: Talk to Your Agent: LLM-Based Trajectory Grounding and Behavioral Correction in RL",
+      "authors": [
+        "Gaetano Pio Pispisa"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Smart Computing Workshops and Other Affiliated events (SmartComp Companion)",
+      "doi": "10.1109/smartcomp-companion70724.2026.00092",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/smartcomp-companion70724.2026.00092"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "LLM-Based Agent Simulation Data Product for Counterfactual Evaluation of Hotel Dynamic Pricing",
+      "authors": [
+        "Mohammadali Majidi",
+        "Jian Yang",
+        "Amin Beheshti"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Web Services (ICWS)",
+      "doi": "10.1109/icws72778.2026.00170",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icws72778.2026.00170"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Counterfactual Fairness Evaluation of LLM-Based Contact Center Agent Quality Assurance System",
+      "authors": [
+        "Kawin Mayilvaghanan",
+        "Siddhant Gupta",
+        "Ayush Kumar"
+      ],
+      "year": 2026,
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+      "doi": "10.18653/v1/2026.findings-acl.1890",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2026.findings-acl.1890"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://aclanthology.org/2026.findings-acl.1890.pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "LLM-Agent Assisted Black-Box Detection of IDOR/BOLA via Multi-Role Differential Validation",
+      "authors": [
+        "Xiaoyun Lu",
+        "Yanyu Lian",
+        "Xiaoya Lu",
+        "Yuemei Gao"
+      ],
+      "year": 2026,
+      "venue": "2026 10th International Conference on Electronic Information Technology and Computer Engineering (EITCE)",
+      "doi": "10.1109/eitce70137.2026.11634569",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/eitce70137.2026.11634569"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Multi-Agent-as-Judge: Aligning LLM-Agent-Based Automated Evaluation with Multi-Dimensional Human Evaluation",
+      "authors": [
+        "Jiaju Chen",
+        "Yuxuan Lu",
+        "Xiaojie Wang",
+        "Huimin Zeng",
+        "Jing Huang",
+        "Jiri Gesi",
+        "Ying Xu",
+        "Bingsheng Yao",
+        "Dakuo Wang"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "doi": "10.18653/v1/2026.acl-long.790",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2026.acl-long.790"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://aclanthology.org/2026.acl-long.790.pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Automated Black-Box Testing: A Comparative Study of LLM Agent Architectures and Prompt Engineering",
+      "authors": [
+        "Anna Arnaudo",
+        "Riccardo Coppola",
+        "Flavio Giobergia",
+        "Maurizio Morisio",
+        "Van-Thanh Nguyen",
+        "Enrico Chen",
+        "Xiaoning Ma",
+        "XiaoQuan Ji",
+        "Minh-Thai Mai"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW)",
+      "doi": "10.1109/icstw72326.2026.00018",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icstw72326.2026.00018"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Behavioral Transfer via Automated Prompt Optimization and LLM-as-a-Judge Evaluation Loops for Prompt-Based Knowledge Distillation",
+      "authors": [
+        "Vincent Koc"
+      ],
+      "year": 2026,
+      "venue": "2026 Systems and Information Engineering Design Symposium (SIEDS)",
+      "doi": "10.1109/sieds69358.2026.11540303",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/sieds69358.2026.11540303"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "DialogGuard: Multi-Agent Psychosocial Safety Evaluation Interface of Sensitive LLM Responses",
+      "authors": [
+        "Han Luo",
+        "Guy Laban"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+      "doi": "10.18653/v1/2026.acl-demo.19",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2026.acl-demo.19"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://aclanthology.org/2026.acl-demo.19.pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Automatic evaluation method of software engineering training results driven by multi-LLM agent cooperation",
+      "authors": [
+        "Chenzi Li",
+        "Yajin Zhong"
+      ],
+      "year": 2026,
+      "venue": "International Conference on Advanced Manufacturing, Automation, and Deep Learning (AMADL 2026)",
+      "doi": "10.1117/12.3123035",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1117/12.3123035"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "From Tasks to Teams: A Risk-First Evaluation Framework for Multi-Agent LLM Systems in Finance",
+      "authors": [
+        "Zichen Chen",
+        "Jianda Chen",
+        "Jiaao Chen",
+        "Misha Sra"
+      ],
+      "year": 2026,
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+      "doi": "10.18653/v1/2026.findings-acl.1934",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2026.findings-acl.1934"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://aclanthology.org/2026.findings-acl.1934.pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "PROTEA: Offline Evaluation and Iterative Refinement for Multi-Agent LLM Workflows",
+      "authors": [
+        "Kazuki Kawamura",
+        "Satoshi Waki",
+        "Kei Tateno"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+      "doi": "10.18653/v1/2026.acl-demo.3",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2026.acl-demo.3"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://aclanthology.org/2026.acl-demo.3.pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "When Prompts Fail to Differentiate: Understanding Discriminative Power in LLM Agent Evaluation",
+      "authors": [
+        "Zizhao Chen",
+        "W. Eric Wong",
+        "Chih-Wei Hsu",
+        "George Dai"
+      ],
+      "year": 2026,
+      "venue": "2026 12th International Symposium on System Security, Safety, and Reliability (ISSSR)",
+      "doi": "10.1109/isssr69973.2026.00023",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/isssr69973.2026.00023"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "A Catalogue of Evaluation Metrics for LLM-Based Multi-Agent Frameworks in Software Engineering",
+      "authors": [
+        "Ingrid Lima",
+        "Vitor Linhares",
+        "Anderson Martins Gomes",
+        "Paulo Henrique Maia"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 2026 International Workshop on Agentic Engineering",
+      "doi": "10.1145/3786167.3788430",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1145/3786167.3788430"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Autonomous Research Loops: An LLM-Agent Framework for End-to-End ML Experimentation, Manuscripting, and Self-Evaluation",
+      "authors": [
+        "Alicem Koyun"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 2026 3rd International Conference on Informatics Education and Computer Technology Applications",
+      "doi": "10.1145/3802133.3802134",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1145/3802133.3802134"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "A Differential Fuzzing-Based Evaluation of Functional Equivalence in LLM-Generated Code Refactorings",
+      "authors": [
+        "Simantika Bhattacharjee Dristi",
+        "Matthew B. Dwyer"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering",
+      "doi": "10.1145/3803437.3806717",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1145/3803437.3806717"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "An LLM-Driven Agent-Based Framework for Cross-Regional Construction Policy Evaluation in the Greater Bay Area",
+      "authors": [
+        "Wentao Zhu",
+        "Xiao Li",
+        "Juan Wang",
+        "Mingtian Xiong"
+      ],
+      "year": 2026,
+      "venue": "Computing in Construction",
+      "doi": "10.35490/ec3.2026.372",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.35490/ec3.2026.372"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Evaluation of the Choice of LLM in a Multi-Agent Solution for GUI-Test Generation",
+      "authors": [
+        "Stevan Tomic",
+        "Emil Alégroth",
+        "Maycel Isaac"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst62969.2025.10989038",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst62969.2025.10989038"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://bth.diva-portal.org/smash/get/diva2:1974470/FULLTEXT01",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "LLM-as-an-Interviewer: Beyond Static Testing Through Dynamic LLM Evaluation",
+      "authors": [
+        "Eunsu Kim",
+        "Juyoung Suk",
+        "Seungone Kim",
+        "Niklas Muennighoff",
+        "Dongkwan Kim",
+        "Alice Oh"
+      ],
+      "year": 2025,
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+      "doi": "10.18653/v1/2025.findings-acl.1357",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2025.findings-acl.1357"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://aclanthology.org/2025.findings-acl.1357.pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "RustAssure: Differential Symbolic Testing for LLM-Transpiled C-to-Rust Code",
+      "authors": [
+        "Yubo Bai",
+        "Tapti Palit"
+      ],
+      "year": 2025,
+      "venue": "2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+      "doi": "10.1109/ase63991.2025.00051",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/ase63991.2025.00051"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Specification and Evaluation of Multi-Agent LLM Systems - Prototype and Cybersecurity Applications",
+      "authors": [
+        "Felix Härer"
+      ],
+      "year": 2025,
+      "venue": "2025 International Conference on Cybersecurity and AI-Based Systems (Cyber-AI)",
+      "doi": "10.1109/cyber-ai66431.2025.11233474",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/cyber-ai66431.2025.11233474"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "A Multi-Agent Approach for REST API Testing with Semantic Graphs and LLM-Driven Inputs",
+      "authors": [
+        "Myeongsoo Kim",
+        "Tyler Stennett",
+        "Saurabh Sinha",
+        "Alessandro Orso"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)",
+      "doi": "10.1109/icse55347.2025.00179",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icse55347.2025.00179"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "LLM-Based Dynamic Multi-Agent Systems for Evaluation of Financial Trading Mechanism",
+      "authors": [
+        "Edward Yu-Cheng Cheng",
+        "Hsueh-Ting Chu"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE International Conference on Consumer Electronics - Taiwan (ICCE-Taiwan)",
+      "doi": "10.1109/icce-taiwan66881.2025.11207858",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icce-taiwan66881.2025.11207858"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "LLM-based Dynamic Differential Testing for Database Connectors with Reinforcement Learning-Guided Prompt Selection",
+      "authors": [
+        "Ce Lyu",
+        "Yanhao Wang",
+        "Jie Liang",
+        "Minghao Zhao"
+      ],
+      "year": 2025,
+      "venue": "2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+      "doi": "10.1109/ase63991.2025.00322",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/ase63991.2025.00322"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "LWDIFF: an LLM-Assisted Differential Testing Framework for Webassembly Runtimes",
+      "authors": [
+        "Shiyao Zhou",
+        "Jincheng Wang",
+        "He Ye",
+        "Hao Zhou",
+        "Claire Le Goues",
+        "Xiapu Luo"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)",
+      "doi": "10.1109/icse55347.2025.00233",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icse55347.2025.00233"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "CFA-Bench: Cybersecurity Forensic Llm Agent Benchmark and Testing",
+      "authors": [
+        "Francesco De Santis",
+        "Kai Huang",
+        "Rodolfo Valentim",
+        "Danilo Giordano",
+        "Marco Mellia",
+        "Zied Ben Houidi",
+        "Dario Rossi"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE European Symposium on Security and Privacy Workshops (EuroS&amp;amp;PW)",
+      "doi": "10.1109/eurospw67616.2025.00031",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/eurospw67616.2025.00031"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "InGen: An LLM-Agent Based Approach for Automatically Generating Evaluation Indicator System for Avionics",
+      "authors": [
+        "Ruiming Chai",
+        "Lisong Wang",
+        "Ruiqi Fan",
+        "Shaohan Liu"
+      ],
+      "year": 2025,
+      "venue": "2025 4th International Symposium on Aerospace Engineering and Systems (ISAES)",
+      "doi": "10.1109/isaes66870.2025.11274390",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/isaes66870.2025.11274390"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "A Differential Testing Pipeline for Validating Lambda Expression Handling in Java Compilers Through LLM-Generated Test Cases",
+      "authors": [
+        "Douglas Kosvoski",
+        "Andrei Braga",
+        "Rodrigo Ribeiro",
+        "Samuel Feitosa"
+      ],
+      "year": 2025,
+      "venue": "Anais da IX Escola Regional de Engenharia de Software (ERES 2025)",
+      "doi": "10.5753/eres.2025.16803",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": "<jats:p>A linguagem de programação Java, conhecida por sua robustez e capacidades multiplataforma, evoluiu com funcionalidades como as expressões Lambda (introduzidas no Java 8) para aumentar a produtividade do desenvolvedor e a legibilidade do código. No entanto, a correção das implementações do compilador para tais funcionalidades é crítica para manter a confiabilidade do Java. Este estudo aproveita os Grandes Modelos de Linguagem (LLMs) para gerar diversos programas Java com expressões Lambda, permitindo o teste diferencial do comportamento do compilador em implementações como Oracle JDK e OpenJDK. A partir dessa abordagem foi possível validar a consistência das implementações desses compiladores e demonstrar a viabilidade da proposta. Adicionalmente, fornece uma estrutura de conjunto de testes reutilizável para avaliar outras funcionalidades de linguagem e compiladores, demonstrando a utilidade de ferramentas orientadas por IA no avanço de testes de software rigorosos e na validação de compiladores.</jats:p>",
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.5753/eres.2025.16803"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://sol.sbc.org.br/index.php/eres/article/download/40388/40157",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Comparative Evaluation of Fragmentation and Encoding Strategies in a Web Agent Integrating RAG and Local LLM",
+      "authors": [
+        "Yeison Javier Muñoz Gomez",
+        "Fabian Armando Hoyos Cerón",
+        "Juan José Caiza Narvaez"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE Colombian Caribbean Conference (C3)",
+      "doi": "10.1109/c366505.2025.11340287",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/c366505.2025.11340287"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Beyond Static GUI Agent: Evolving LLM-based GUI Testing via Dynamic Memory",
+      "authors": [
+        "Mengzhuo Chen",
+        "Zhe Liu",
+        "Chunyang Chen",
+        "Junjie Wang",
+        "Yangguang Xue",
+        "Boyu Wu",
+        "Yuekai Huang",
+        "Libin Wu",
+        "Qing Wang"
+      ],
+      "year": 2025,
+      "venue": "2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+      "doi": "10.1109/ase63991.2025.00135",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/ase63991.2025.00135"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "An Empirical Evaluation of LLM-Based Approaches for Code Vulnerability Detection: RAG, SFT, and Dual-Agent Systems",
+      "authors": [
+        "Md Hasan Saju",
+        "Maher Muhtadi",
+        "Akramul Azim"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON)",
+      "doi": "10.1109/cascon66301.2025.00045",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/cascon66301.2025.00045"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Enhancing LLM Code Generation: A Systematic Evaluation of Multi-Agent Collaboration and Runtime Debugging for Accuracy, Reliability, and Latency",
+      "authors": [
+        "Nazmus Ashrafi",
+        "Salah Bouktif",
+        "Mohammed Mediani"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE 19th International Conference on Application of Information and Communication Technologies (AICT)",
+      "doi": "10.1109/aict67988.2025.11268754",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/aict67988.2025.11268754"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Methodology for Quality Assurance Testing of LLM-based Multi-Agent Systems",
+      "authors": [
+        "Isha Shamim",
+        "Rekha Singhal"
+      ],
+      "year": 2024,
+      "venue": "Proceedings of the 4th International Conference on AI-ML Systems",
+      "doi": "10.1145/3703412.3703439",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1145/3703412.3703439"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "CToolEval: A Chinese Benchmark for LLM-Powered Agent Evaluation in Real-World API Interactions",
+      "authors": [
+        "Zishan Guo",
+        "Yufei Huang",
+        "Deyi Xiong"
+      ],
+      "year": 2024,
+      "venue": "Findings of the Association for Computational Linguistics ACL 2024",
+      "doi": "10.18653/v1/2024.findings-acl.928",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2024.findings-acl.928"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://aclanthology.org/2024.findings-acl.928.pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "(Why) Is My Prompt Getting Worse? Rethinking Regression Testing for Evolving LLM APIs",
+      "authors": [
+        "Wanqin Ma",
+        "Chenyang Yang",
+        "Christian Kästner"
+      ],
+      "year": 2024,
+      "venue": "Proceedings of the IEEE/ACM 3rd International Conference on AI Engineering - Software Engineering for AI",
+      "doi": "10.1145/3644815.3644950",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1145/3644815.3644950"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Evaluation and strategy of community belonging based on Multi-agent LLM: A case study of the long-term rental apartments in Beijing",
+      "authors": [
+        "Xuanmin Dong",
+        "Yu Du"
+      ],
+      "year": 2024,
+      "venue": "Proceedings of the 60th ISOCARP World Planning Congress",
+      "doi": "10.47472/wuf8wyey",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.47472/wuf8wyey"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "RETAIN: Interactive Tool for Regression Testing Guided LLM Migration",
+      "authors": [
+        "Tanay Dixit",
+        "Daniel Lee",
+        "Sally Fang",
+        "Sai Sree Harsha",
+        "Anirudh Sureshan",
+        "Akash V Maharaj",
+        "Yunyao Li"
+      ],
+      "year": 2024,
+      "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+      "doi": "10.18653/v1/2024.emnlp-demo.31",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2024.emnlp-demo.31"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://aclanthology.org/2024.emnlp-demo.31.pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "A Clinical Quality-Assurance Panel for Patient-Facing Black-Box Large Language Models in Healthcare: Anchored Forced-Choice Drift Monitoring for Sensitive Communication",
+      "authors": [
+        "Yuusuke Harada"
+      ],
+      "year": 2026,
+      "venue": "Cureus",
+      "doi": "10.7759/cureus.108195",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": "Background Patient-facing large language models (LLMs) are being integrated into patient portals, automated health messaging, psychoeducation, and mental health-related support. Because many deployments are vendor-hosted black boxes that may change without local visibility, health systems need practical quality-assurance methods that can establish a baseline behavioral signature and flag candidate changes in how sensitive topics are framed. Methods This feasibility study applied an anchored two-alternative forced-choice (2AFC) protocol to ChatGPT 5.4 (OpenAI, San Francisco, California, United States) through its consumer-facing interface on 25 March 2026. The primary objective was to determine whether a version-controlled anchored 2AFC panel could produce a parsable, repeatable, clinically interpretable baseline signature for a black-box LLM under a fixed prompt family. Secondary objectives were to estimate an anchored scale, place selected clinically salient concepts on that scale, quantify repeatability and confidence behavior, and explore sensitivity to wrapper and prompt-family changes. On each of 190 trials, the model compared two same-sized “solids” and chose which was harder (resistance to indentation and scratching; brittleness excluded), then returned a one-line JavaScript Object Notation (JSON) object containing a forced-choice response and a confidence score (0-100). A Bradley-Terry model generated an anchored 0-100 hardness scale (Marshmallow = 0; Steel = 100) with parametric bootstrap confidence intervals (CIs). We also executed the same panel on a locally hosted model to assess on-premise feasibility. Results The anchored panel produced a coherent within-session baseline signature with complete repeated-pair agreement (all 64 repeated unordered pairs yielded identical winners) and near-perfect Bradley-Terry fit (classification accuracy 1.000; log loss 0.0117). The scale separated lower-hardness concepts (Life 6.04, 95% CI -0.79 to 8.69; Kindness 13.70, 95% CI 4.42 to 16.79; Silence 21.14, 95% CI 12.34 to 24.09) from higher-hardness concepts (Justice 75.93, 95% CI 71.59 to 83.91; Death 87.15, 95% CI 84.59 to 88.31). Model-reported confidence correlated strongly with inferred pair distance (r = 0.842, 95% CI 0.813-0.869). Style/language wrappers showed complete agreement, whereas a prompt-family comparison produced three reversals among 36 hardness pairs. In the local-model feasibility run, internal consistency was lower (accuracy 0.926; log loss 0.158) with anchor-order violations (Polycarbonate sheet > Steel), demonstrating that the panel can flag deviations that warrant clinical or governance review. Conclusions Anchored forced-choice panels can serve as compact, repeatable behavioral control materials for patient-facing LLM governance by establishing a baseline for later regression testing, post-update monitoring, and prompt-template change control. This single-model, single-session feasibility study does not demonstrate longitudinal drift detection, clinical outcomes, or therapeutic appropriateness. The instrument should therefore complement, not replace, scenario-based clinical safety evaluation, expert review, and organizational oversight.",
+      "citation_count": null,
+      "relevance_score": 0.2444,
+      "sources": [
+        "semantic_scholar"
+      ],
+      "landing_urls": [
+        "https://www.semanticscholar.org/paper/a9316585991c4f813ce12d9ce6acf6cb95e636bd"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://doi.org/10.7759/cureus.108195",
+          "source": "semantic_scholar"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Strategic Complexity and Behavioral Distortion: Retail Investing Under Large Language Model Augmentation",
+      "authors": [
+        "Dmitrii Gimmelberg",
+        "I. Ludviga"
+      ],
+      "year": 2025,
+      "venue": "International Journal of Financial Studies",
+      "doi": "10.3390/ijfs13040210",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": "This conceptual article introduces Perceived Cognitive Assistance (PCA)—a novel psychological construct capturing how interactive support from Large Language Models (LLMs) alters investors’ perception of their cognitive capacity to execute complex trading strategies. PCA formalizes a behavioral shift: LLM-empowered retail investors may transition from intuitive heuristics to institutional-grade strategies—sometimes without adequate comprehension. This empowerment–distortion duality forms the theoretical contribution’s core. To empirically validate this model, this article outlines a five-step research agenda including psychological diagnostics, trading behavior analysis, market efficiency tests, and a Behavioral Shift Index (BSI). One agenda component—a dual-agent simulation framework—enables causal benchmarking in post-LLM environments. This simulation includes two contributions: (1) the Virtual Trader, a cognitively degraded benchmark approximating bounded human reasoning, and (2) the Digital Persona, a psychologically emulated agent grounded in behaviorally plausible logic. These components offer methods for isolating LLM assistance’s cognitive uplift and evaluating behavioral implications under controlled conditions. This article contributes by specifying a testable link from established decision frameworks (Theory of Planned Behavior, Technology Acceptance Model, and Risk-as-Feelings) to two estimators: a moderated regression for individual decisions (Equation (1)) and a composite Behavioral Shift Index derived from trading logs (Equation (2)). We state directional, falsifiable predictions for the regression coefficients and for index dynamics, and we outline an identification and robustness plan—versioned, time-locked, and auditable—to be executed in the subsequent empirical phase. The result is a clear operational pathway from theory to measurement and testing, prior to empirical implementation. No empirical results are reported here; the contribution is the operational, falsifiable architecture and its implementation plan, to be executed in a separate preregistered study.",
+      "citation_count": 2,
+      "relevance_score": 0.2,
+      "sources": [
+        "openalex",
+        "semantic_scholar",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://www.semanticscholar.org/paper/a0dc01bc2e145a521b4682df0719a167730cf3d0",
+        "https://doi.org/10.3390/ijfs13040210",
+        "https://openalex.org/W4415953732"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://www.mdpi.com/2227-7072/13/4/210/pdf",
+          "source": "semantic_scholar"
+        },
+        {
+          "url": "https://www.mdpi.com/2227-7072/13/4/210/pdf",
+          "source": "openalex"
+        },
+        {
+          "url": "https://www.mdpi.com/2227-7072/13/4/210/pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "The Governance of Human-LLM Interaction: Safety Gating, Civility Steering, and Affective Default Lock-In",
+      "authors": [
+        "Manuele Reani",
+        "Hong-Jian Zhang",
+        "Hongyu Tian"
+      ],
+      "year": 2026,
+      "venue": "arXiv.org",
+      "doi": "10.48550/arxiv.2606.08172",
+      "arxiv_id": "2606.08172",
+      "dblp_key": null,
+      "abstract": "Large language models (LLMs) increasingly mediate high-stakes interactions in finance, medicine, and mental-health support, yet users have limited control over how these systems communicate. We frame interaction style as a governance object: provider-side alignment not only blocks harmful content, but also stabilizes communicative defaults that shape users'epistemic distance, relational expectations, and capacity to opt out of emotionalized or anthropomorphic interaction. We introduce a deterministic multi-agent evaluation pipeline for measuring prompt steerability and style drift in long-horizon dialogue. The study replays 100 frozen user-only scripts across four domains and three runnable persona conditions: default, sarcastic, and cold, using three generator models, yielding 90,000 assistant replies scored by a human-calibrated LLM judge on harmfulness, negative emotion, inappropriateness, empathic language, anthropomorphism, and refusal behavior. A fourth harmful persona is evaluated separately as a safety-gating test. The paper contributes a reproducible method for quantifying whether prompt-specified styles remain stable over time and a governance framework distinguishing safety gating, civility steering, and affective default lock-in. Overall, we show that prompt steerability and regression-to-default are observable indicators of provider control over communicative form, with implications for pluralism, autonomy, and democratic agency in human-LLM interaction.",
+      "citation_count": null,
+      "relevance_score": 0.2,
+      "sources": [
+        "semantic_scholar"
+      ],
+      "landing_urls": [
+        "https://www.semanticscholar.org/paper/fb1a9bac210ce53f8d4b3a46fea563419cf2bf51"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_with_preprint",
+      "access_status": "abstract_only",
+      "downloaded_file": null,
+      "download_error": "unpaywall: HTTP Error 404: Not Found"
+    },
+    {
+      "title": "OBsmith: LLM-Powered JavaScript Obfuscator Testing",
+      "authors": [
+        "Shan Jiang",
+        "Chenguang Zhu",
+        "Sarfraz Khurshid"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the ACM on Programming Languages",
+      "doi": "10.1145/3798204",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": 2,
+      "relevance_score": 0.1778,
+      "sources": [
+        "openalex"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1145/3798204",
+        "https://openalex.org/W7133296620"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "RippleGUItester: Change-Aware Exploratory Testing",
+      "authors": [
+        "Yanqi Su",
+        "Michael Pradel",
+        "Chunyang Chen"
+      ],
+      "year": 2026,
+      "venue": "arXiv.org",
+      "doi": "10.48550/arxiv.2603.03121",
+      "arxiv_id": "2603.03121",
+      "dblp_key": null,
+      "abstract": "Software systems evolve continuously through frequent code changes, yet such changes often introduce unintended bugs despite extensive testing and code review. Existing testing approaches are largely constrained to predefined execution paths or rely on unguided exploration, leaving many change-induced issues undetected. To address this challenge, we present RippleGUItester, a change-driven testing system that treats a code change as the epicenter of a ripple effect and explores its broader, user-visible impacts via the GUI. Given a code change, RippleGUItester performs LLM-based change-impact analysis to generate and enrich realistic test scenarios, executes these scenarios on both pre-change and post-change versions of the system, and applies differential analysis to identify behavioral differences. Crucially, RippleGUItester employs multimodal bug detection, comparing visual GUI changes and interpreting them in the context of natural-language change intents to distinguish unintended bugs from intended behavioral updates. We evaluate our approach on hundreds of real-world code changes across four widely used software systems: Firefox, Zettlr, JabRef, and Godot. Our results show that the proposed approach uncovers bugs introduced by code changes that were missed by existing test suites, CI pipelines, and code review. In total, we identify 26 previously unknown bugs that still exist in the latest versions of the evaluated systems. After reporting, 16 bugs have been fixed, 2 have been confirmed, 6 are still under discussion, and 2 were marked as intended. We envision RippleGUItester being applied before or shortly after a code change is merged, enabling earlier detection of regressions.",
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "semantic_scholar"
+      ],
+      "landing_urls": [
+        "https://www.semanticscholar.org/paper/1f89ad7c9d334bfb1f31093497fa5abce6e2269c"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_with_preprint",
+      "access_status": "abstract_only",
+      "downloaded_file": null,
+      "download_error": "unpaywall: HTTP Error 404: Not Found"
+    },
+    {
+      "title": "Beyond Bypass: Measuring Vulnerability Regression in LLM-Generated Security Patches",
+      "authors": [
+        "Yasmeen Rawajfih",
+        "Adiba Mahmud",
+        "Ross Arnold"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Artificial Intelligence Testing (AITest)",
+      "doi": "10.1109/aitest70988.2026.00029",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/aitest70988.2026.00029"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Agent-as-a-Graph: Knowledge Graph-Based Tool and Agent Retrieval for LLM Multi-Agent Systems",
+      "authors": [
+        "Faheem Nizar",
+        "Elias Lumer",
+        "Anmol Gulati",
+        "Pradeep Basavaraju",
+        "Vamse Subbiah"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 18th International Conference on Agents and Artificial Intelligence",
+      "doi": "10.5220/0014473600004052",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.5220/0014473600004052"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "ChulaNLP at SemEval-2026 Task 5: Regression-Calibrated LLM for Word-Sense Scoring",
+      "authors": [
+        "Wayu Limsuwan",
+        "Attapol Rutherford"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 20th International Workshop on Semantic Evaluation (2026)",
+      "doi": "10.18653/v1/2026.semeval-1.343",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2026.semeval-1.343"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://aclanthology.org/2026.semeval-1.343.pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Benchmarking Multi-Agent LLM and Single Agent LLM Efficiency for Contextual Text Generation",
+      "authors": [
+        "K. Arora",
+        "A. Naim",
+        "S. Sharma"
+      ],
+      "year": 2026,
+      "venue": "2026 International Conference on Intelligent Systems in Engineering, Secured Systems and Cybersecurity (ICISESSC)",
+      "doi": "10.1109/icisessc68634.2026.11542788",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icisessc68634.2026.11542788"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "CodeQual-Agent: An Intelligent LLM-Agent Framework for Automated Software Quality Assessment with Explainable Predictions and Real-Time Analysis",
+      "authors": [
+        "Faisal Mohammad",
+        "Junaid K. Kakar",
+        "D. R. Bekale Be Ndong",
+        "Mot Chas",
+        "Duksan Ryu"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW)",
+      "doi": "10.1109/icstw72326.2026.00035",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icstw72326.2026.00035"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "VectorSec: A Web-Based AI Security Scanner for Systematic Evaluation of LLM Vulnerabilities",
+      "authors": [
+        "Muhammad Mudassar Yamin"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Artificial Intelligence Testing (AITest)",
+      "doi": "10.1109/aitest70988.2026.00022",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/aitest70988.2026.00022"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Sura.ai: Multi-Agent Infrastructure Recovery with LLM-Powered Autonomous Remediation",
+      "authors": [
+        "Ananya Arvind",
+        "Shruthi Narayanan",
+        "Saishriya Narayanan"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 18th International Conference on Agents and Artificial Intelligence",
+      "doi": "10.5220/0014456800004052",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.5220/0014456800004052"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Early-Token Confidence Predicts Reasoning Quality in Multi-Agent LLM Debate",
+      "authors": [
+        "Ali Keramati",
+        "Justin Cheok",
+        "Jacob Horne",
+        "Mark Warschauer"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM)",
+      "doi": "10.18653/v1/2026.gem-main.60",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2026.gem-main.60"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://aclanthology.org/2026.gem-main.60.pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "LLM-Driven Multi-Agent Surrogate Modeling for Integrated Circuit Design",
+      "authors": [
+        "Mónika Grezer",
+        "Andrei-Alexandru Bunea",
+        "Cosmin Bănică",
+        "Marina Ţopa",
+        "Valentina Davidoiu",
+        "Andi Buzo",
+        "Georg Pelz"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Automation, Quality and Testing, Robotics (AQTR)",
+      "doi": "10.1109/aqtr70159.2026.11578025",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/aqtr70159.2026.11578025"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Observability and Fault Injection for LLM-Based Multi-Agent Systems in Software Engineering",
+      "authors": [
+        "Zahra Seyedghorban",
+        "Egor Klimov",
+        "Arie van Deursen",
+        "Annibale Panichella",
+        "Burcu Kulahcioglu Ozkan"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst69053.2026.00037",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst69053.2026.00037"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://arxiv.org/pdf/2608.24271",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Tool-Augmented Disambiguation LLM Agent Utilizing UMLS for Biomedical Entity Linking",
+      "authors": [
+        "Luka Blašković",
+        "Nikola Tanković",
+        "Ivo Ipšić"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 18th International Conference on Agents and Artificial Intelligence",
+      "doi": "10.5220/0014355600004052",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.5220/0014355600004052"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Bridging MDE and LLM-Based Agent Frameworks for Multi-Agent Systems: A Quasi-Systematic Review and Metamodel",
+      "authors": [
+        "James Miranda",
+        "Ansgar Radermacher",
+        "Fabien Baligand",
+        "Julie Bonnail",
+        "Sebastien Gérard",
+        "Pascal Bannerot",
+        "Marcos Fabro"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 14th International Conference on Model-Based Software and Systems Engineering",
+      "doi": "10.5220/0014236700004058",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.5220/0014236700004058"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Multi-Agent Tool Sharing: Task Allocation, Concurrent Access Coordination, and Consistency Guarantees in Collaborative LLM Agent Systems",
+      "authors": [
+        "Yang Xiang"
+      ],
+      "year": 2026,
+      "venue": "2026 International Conference on Large Models and Intelligent Agent Technologies (LMIAT)",
+      "doi": "10.1109/lmiat70705.2026.11682229",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/lmiat70705.2026.11682229"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "LLM-Based Automatic Metamorphic Test Case Generation for LLM Fairness Testing",
+      "authors": [
+        "Francisca Isabella Manope",
+        "Adam Rafif Faqih",
+        "Daffa Hilmy Fadhlurrohman",
+        "Jati H. Husen",
+        "Rosa Reska Riskiana"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Artificial Intelligence Testing (AITest)",
+      "doi": "10.1109/aitest70988.2026.00012",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/aitest70988.2026.00012"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Sabancigroup4 at SemEval-2026 Task 5: Uncertainty-Aware Semantic Plausibility Scoring via GNLL Regression and LLM Rationales",
+      "authors": [
+        "Salih Büyükbaş",
+        "Doruk Benli",
+        "Osman Kara",
+        "Dilara Keküllüoğlu"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 20th International Workshop on Semantic Evaluation (2026)",
+      "doi": "10.18653/v1/2026.semeval-1.144",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2026.semeval-1.144"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://aclanthology.org/2026.semeval-1.144.pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "EduBot-LLM: An LLM-Driven Educational Robot Agent with Unified Dialogue and Action Planning",
+      "authors": [
+        "Gaojian Liu",
+        "Ngai Cheong"
+      ],
+      "year": 2026,
+      "venue": "2026 10th International Conference on Electronic Information Technology and Computer Engineering (EITCE)",
+      "doi": "10.1109/eitce70137.2026.11634532",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/eitce70137.2026.11634532"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "K-NLPers at SemEval-2026 Task 7: Multiple LLM Agent Debate System for Everyday Knowledge Across Diverse Languages and Cultures",
+      "authors": [
+        "Jiwoo Song",
+        "Sihyeong Yeom",
+        "Harksoo Kim"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 20th International Workshop on Semantic Evaluation (2026)",
+      "doi": "10.18653/v1/2026.semeval-1.410",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2026.semeval-1.410"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://aclanthology.org/2026.semeval-1.410.pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "NOMAD: A Multi-Agent LLM System for UML Class Diagram Generation from Natural Language Requirements",
+      "authors": [
+        "Polydoros Giannouris",
+        "Sophia Ananiadou"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 14th International Conference on Model-Based Software and Systems Engineering",
+      "doi": "10.5220/0014301900004058",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.5220/0014301900004058"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Multi-Agent LLM Closed-Loop Optimization for NP-Hard Problems",
+      "authors": [
+        "Kiran Nair",
+        "Bikash Chandra Singh"
+      ],
+      "year": 2026,
+      "venue": "SoutheastCon 2026",
+      "doi": "10.1109/southeastcon63549.2026.11476226",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/southeastcon63549.2026.11476226"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "A Multi-Agent LLM Framework with RAG for Shipbuilding Engineering Documents",
+      "authors": [
+        "Boris Galvan",
+        "George Drakoulas",
+        "Bram Cals",
+        "Tayfun Kucukyilmaz",
+        "Matthijs Schakel",
+        "Dina Semchenko",
+        "Juri Kuzjatkin",
+        "Gil Cabral"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 18th International Conference on Agents and Artificial Intelligence",
+      "doi": "10.5220/0014240600004052",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.5220/0014240600004052"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "NeuroSync-Agent: A Real-Time Multimodal Fusion and LLM Reasoning Framework for Cognitive-State Inference",
+      "authors": [
+        "Basma Jalloul",
+        "Bassem Bouaziz",
+        "Siwar Chaabene",
+        "Walid Mahdi"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 18th International Conference on Agents and Artificial Intelligence",
+      "doi": "10.5220/0014456500004052",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.5220/0014456500004052"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Authenticated and Offline-Verifiable Agent-to-Agent Messaging for LLM Agents",
+      "authors": [
+        "Adil Alshammari",
+        "Sareh Assiri",
+        "Hayretdin Bahsi"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE 16th Annual Computing and Communication Workshop and Conference (CCWC)",
+      "doi": "10.1109/ccwc67433.2026.11393740",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/ccwc67433.2026.11393740"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "LLM-FK: Multi-Agent LLM Reasoning for Foreign Key Detection in Large-Scale Complex Databases",
+      "authors": [
+        "Zijian Tang",
+        "Ying Zhang",
+        "Sibo Cai",
+        "Ruoxuan Wang"
+      ],
+      "year": 2026,
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+      "doi": "10.18653/v1/2026.findings-acl.1660",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2026.findings-acl.1660"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "A Dynamic Evaluation Approach to Repository-Level Code Generation Via LLM",
+      "authors": [
+        "Fuze Kuang",
+        "Dongmei Liu",
+        "Yongli Wang",
+        "Honghua Huan",
+        "Mingzhe Zhao",
+        "Longyang Mi",
+        "XiaoHong Zheng"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Artificial Intelligence Testing (AITest)",
+      "doi": "10.1109/aitest70988.2026.00019",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/aitest70988.2026.00019"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "AutoQABench: A Three-Level UX Benchmark for Automated Evaluation of Open-Ended LLM Responses",
+      "authors": [
+        "Tianyue Wang",
+        "Fei Yuan",
+        "ChiaJu Miao",
+        "Muralidharan Seshadri Kaniyanoor",
+        "Kazuo Matsumoto"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Artificial Intelligence Testing (AITest)",
+      "doi": "10.1109/aitest70988.2026.00011",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/aitest70988.2026.00011"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "GI-Agent Search-Based LLM Agent for Code Optimization with Genetic Improvement",
+      "authors": [
+        "Donghyun Lee",
+        "William B. Langdon",
+        "Justyna Petke"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 14th International Workshop on Genetic Improvement",
+      "doi": "10.1145/3786162.3793232",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1145/3786162.3793232"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "QoS-Aware Brokering for LLM-as-a-Service: SLA-Constrained Routing with Drift Detection",
+      "authors": [
+        "Okba Tibermacine",
+        "Chouki Tibermacine"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Web Services (ICWS)",
+      "doi": "10.1109/icws72778.2026.00112",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icws72778.2026.00112"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "ASIC-Agent: An Autonomous Multi-Agent System for ASIC Design with Benchmark Evaluation",
+      "authors": [
+        "Ahmed Allam",
+        "Youssef Mansour",
+        "Mohamed Shalan"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE International Conference on LLM-Aided Design (ICLAD)",
+      "doi": "10.1109/iclad65226.2025.00033",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/iclad65226.2025.00033"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://arxiv.org/pdf/2508.15940",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems",
+      "authors": [
+        "Zhongzhi Yu",
+        "Mingjie Liu",
+        "Michael Zimmer",
+        "Yingyan Celine",
+        "Yong Liu",
+        "Haoxing Ren"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE International Conference on LLM-Aided Design (ICLAD)",
+      "doi": "10.1109/iclad65226.2025.00013",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/iclad65226.2025.00013"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "TRIZ Agents: A Multi-Agent LLM Approach for TRIZ-Based Innovation",
+      "authors": [
+        "Kamil Szczepanik",
+        "Jarosław Chudziak"
+      ],
+      "year": 2025,
+      "venue": "Proceedings of the 17th International Conference on Agents and Artificial Intelligence",
+      "doi": "10.5220/0013321900003890",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.5220/0013321900003890"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Get My Drift? Catching LLM Task Drift with Activation Deltas",
+      "authors": [
+        "Sahar Abdelnabi",
+        "Aideen Fay",
+        "Giovanni Cherubin",
+        "Ahmed Salem",
+        "Mario Fritz",
+        "Andrew Paverd"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+      "doi": "10.1109/satml64287.2025.00011",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/satml64287.2025.00011"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "LLM-Based Evaluation of Utterances with Implicature Understanding",
+      "authors": [
+        "Ayu Iida",
+        "Kohei Okuoka",
+        "Takashi Omori",
+        "Ryoichi Nakashima",
+        "Masahiko Osawa"
+      ],
+      "year": 2025,
+      "venue": "Proceedings of the 13th International Conference on Human-Agent Interaction",
+      "doi": "10.1145/3765766.3765841",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1145/3765766.3765841"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "A LLM-Powered Agent for Summarizing Critical Information in the Swine Certification Process",
+      "authors": [
+        "Gabriel Rodrigues da Silva",
+        "Alencar Machado",
+        "Vinícius Maran"
+      ],
+      "year": 2025,
+      "venue": "Proceedings of the 27th International Conference on Enterprise Information Systems",
+      "doi": "10.5220/0013473400003929",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.5220/0013473400003929"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "LLM-Based Evaluation Pipeline for Assessing Automatically Generated Responses",
+      "authors": [
+        "Nicole Barbosa Gomes",
+        "Jonas Queiroz",
+        "Diogo Melo Paes",
+        "Ivan R. Guilherme"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology (WI-IAT)",
+      "doi": "10.1109/wi-iat67162.2025.00115",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/wi-iat67162.2025.00115"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "AID-Agent: An LLM-Agent for Advanced Extraction and Integration of Documents",
+      "authors": [
+        "Bin Li",
+        "Jannis Conen",
+        "Felix Aller"
+      ],
+      "year": 2025,
+      "venue": "Proceedings of the 1st Workshop for Research on Agent Language Models (REALM 2025)",
+      "doi": "10.18653/v1/2025.realm-1.6",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2025.realm-1.6"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "LLM-MAC: LLM-Driven Multi-Agent Coordination for Generalizable Home Energy Management",
+      "authors": [
+        "Ye Yang",
+        "Qingyu Yang",
+        "Donghe Li",
+        "Li Sun",
+        "Liu Sen",
+        "Ruosong Liu"
+      ],
+      "year": 2025,
+      "venue": "2025 44th Chinese Control Conference (CCC)",
+      "doi": "10.23919/ccc64809.2025.11179521",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.23919/ccc64809.2025.11179521"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Ad Hoc LLM-to-LLM Evaluation Framework",
+      "authors": [
+        "Abdulaziz Almaslukh"
+      ],
+      "year": 2025,
+      "venue": "2025 International Conference on Electrical, Communication and Computer Engineering (ICECCE)",
+      "doi": "10.1109/icecce67514.2025.11257953",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icecce67514.2025.11257953"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "MALTopic: Multi-Agent LLM Topic Modeling Framework",
+      "authors": [
+        "Yash Sharma"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE World AI IoT Congress (AIIoT)",
+      "doi": "10.1109/aiiot65859.2025.11105319",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/aiiot65859.2025.11105319"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://arxiv.org/pdf/2601.15299",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Integrating Traditional Technical Analysis with AI: A Multi-Agent LLM-Based Approach to Stock Market Forecasting",
+      "authors": [
+        "Michał Wawer",
+        "Jarosław Chudziak"
+      ],
+      "year": 2025,
+      "venue": "Proceedings of the 17th International Conference on Agents and Artificial Intelligence",
+      "doi": "10.5220/0013191200003890",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.5220/0013191200003890"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Citation Drift: Measuring Reference Stability in Multi-Turn LLM Conversations",
+      "authors": [
+        "Gokul Srinath Seetha Ram"
+      ],
+      "year": 2025,
+      "venue": "Proceedings of the Third Workshop for Artificial Intelligence for Scientific Publications",
+      "doi": "10.18653/v1/2025.wasp-main.20",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2025.wasp-main.20"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://aclanthology.org/2025.wasp-main.20.pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "An Accountability-Based Architectural Tactic for Agent Cooperation in LLM-Based Multi-Agent Systems",
+      "authors": [
+        "Marco Becattini",
+        "Roberto Verdecchia",
+        "Enrico Vicario"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE International Conference on Big Data (BigData)",
+      "doi": "10.1109/bigdata66926.2025.11402340",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/bigdata66926.2025.11402340"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "TransLaTeX: Exposing the Last-Mile Execution Gap in LLM-Agent for Scientific Formatting",
+      "authors": [
+        "Jiawen Lyn",
+        "Yvette Graham"
+      ],
+      "year": 2025,
+      "venue": "Proceedings of The First Workshop on Human–LLM Collaboration for Ethical and Responsible Science Production (SciProdLLM)",
+      "doi": "10.18653/v1/2025.sciprodllm-1.3",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.18653/v1/2025.sciprodllm-1.3"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://aclanthology.org/2025.sciprodllm-1.3.pdf",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "KuaiRand Short Video LLM-Explainable Recommendation System with User Emotion Drift",
+      "authors": [
+        "Chengjun Liu",
+        "Yinuo Liu"
+      ],
+      "year": 2025,
+      "venue": "2025 5th International Conference on Advanced Algorithms and Neural Networks (AANN)",
+      "doi": "10.1109/aann66429.2025.11257602",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1778,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/aann66429.2025.11257602"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    }
+  ]
+}

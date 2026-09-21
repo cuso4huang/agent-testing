@@ -1,9 +1,10 @@
 # Downloaded literature PDFs and local arXiv parsing cache.
 # Keep research notes, evidence tables, BibTeX, logs and reviews tracked.
-research/papers/
+literature/papers/
 .codex-data/
 tmp/*
-output/*
+outputs/*
+!outputs/README.md
 .*
 
 # Generated Python caches.

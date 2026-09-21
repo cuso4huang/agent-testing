@@ -1,0 +1,228 @@
+{
+  "search": {
+    "query": "agentic system behavioral differential testing model versions",
+    "start_year": 2023,
+    "end_year": 2026,
+    "venues": "ICSE,FSE,ASE,ISSTA,ICST",
+    "limit": 100,
+    "peer_reviewed_conferences_only": true,
+    "searched_at": "2026-09-19T02:20:40.142946+00:00"
+  },
+  "configured": {
+    "contact_email": true,
+    "semantic_scholar_api_key": true,
+    "openalex_api_key": true,
+    "core_api_key": false,
+    "ieee_xplore_api_key": false
+  },
+  "source_errors": {
+    "dblp": "Expecting value: line 1 column 1 (char 0)",
+    "arxiv": "HTTP Error 406: Not Acceptable"
+  },
+  "requests": [
+    {
+      "source": "dblp",
+      "url": "https://dblp.org/search/publ/api?q=agentic+system+behavioral+differential+testing+model+versions&format=json&h=100&c=0",
+      "status": 200,
+      "bytes": 2980,
+      "elapsed_seconds": 0.683
+    },
+    {
+      "source": "semantic_scholar",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=agentic+system+behavioral+differential+testing+model+versions&limit=100&fields=title%2Cauthors%2Cyear%2Cvenue%2Cabstract%2CcitationCount%2CexternalIds%2Curl%2CopenAccessPdf",
+      "status": 200,
+      "bytes": 255286,
+      "elapsed_seconds": 1.641
+    },
+    {
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=agentic+system+behavioral+differential+testing+model+versions&per_page=100&filter=type%3Aarticle%2Cfrom_publication_date%3A2023-01-01%2Cto_publication_date%3A2026-12-31&api_key=%3Credacted%3E",
+      "status": 200,
+      "bytes": 3427798,
+      "elapsed_seconds": 3.364
+    },
+    {
+      "source": "crossref",
+      "url": "https://api.crossref.org/works?query.bibliographic=agentic+system+behavioral+differential+testing+model+versions&rows=100&filter=type%3Aproceedings-article%2Cfrom-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-12-31&mailto=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 447542,
+      "elapsed_seconds": 1.934
+    },
+    {
+      "source": "arxiv",
+      "url": "https://export.arxiv.org/api/query?search_query=all%3Aagentic+system+behavioral+differential+testing+model+versions&start=0&max_results=100&sortBy=relevance",
+      "status": 406,
+      "error": "HTTP Error 406: Not Acceptable",
+      "elapsed_seconds": 0.422
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst62969.2025.10989027?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1023,
+      "elapsed_seconds": 0.706
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst62969.2025.10989044?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1351,
+      "elapsed_seconds": 0.642
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst69053.2026.00013?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 900,
+      "elapsed_seconds": 0.689
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst69053.2026.00047?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1075,
+      "elapsed_seconds": 0.718
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst69053.2026.00040?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1187,
+      "elapsed_seconds": 0.714
+    }
+  ],
+  "papers": [
+    {
+      "title": "Differential Testing of Concurrent Classes",
+      "authors": [
+        "Valerio Terragni",
+        "Shing-Chi Cheung"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst62969.2025.10989027",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2286,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst62969.2025.10989027"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Towards Cross-Build Differential Testing",
+      "authors": [
+        "Jens Dietrich",
+        "Tim White",
+        "Valerio Terragni",
+        "Behnaz Hassanshahi"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst62969.2025.10989044",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2286,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst62969.2025.10989044"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Designing and Verifying Agentic AI Systems through Structural Architecture and State Analysis",
+      "authors": [
+        "Juyeon Yoon"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst69053.2026.00013",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1143,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst69053.2026.00013"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "DeepFix: Debugging and Fixing Machine Learning Workflow using Agentic AI",
+      "authors": [
+        "Fadel Mamar Seydou",
+        "Arnab Sharma"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst69053.2026.00047",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1143,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst69053.2026.00047"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "How well LLM-based test generation techniques perform with newer LLM versions?",
+      "authors": [
+        "Michael Konstantinou",
+        "Renzo Degiovanni",
+        "Mike Papadakis"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst69053.2026.00040",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1143,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst69053.2026.00040"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    }
+  ]
+}

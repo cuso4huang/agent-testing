@@ -1,0 +1,138 @@
+{
+  "search": {
+    "query": "testing evaluation fault injection red teaming LLM agents agentic systems",
+    "start_year": 2025,
+    "end_year": 2026,
+    "venues": "ICSE,FSE,ASE,ISSTA,ICST",
+    "limit": 100,
+    "peer_reviewed_conferences_only": true,
+    "searched_at": "2026-09-19T01:53:17.671909+00:00"
+  },
+  "configured": {
+    "contact_email": true,
+    "semantic_scholar_api_key": true,
+    "openalex_api_key": true,
+    "core_api_key": false,
+    "ieee_xplore_api_key": false
+  },
+  "source_errors": {
+    "dblp": "Expecting value: line 1 column 1 (char 0)",
+    "arxiv": "HTTP Error 406: Not Acceptable"
+  },
+  "requests": [
+    {
+      "source": "dblp",
+      "url": "https://dblp.org/search/publ/api?q=testing+evaluation+fault+injection+red+teaming+LLM+agents+agentic+systems&format=json&h=100&c=0",
+      "status": 200,
+      "bytes": 3421,
+      "elapsed_seconds": 0.914
+    },
+    {
+      "source": "semantic_scholar",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=testing+evaluation+fault+injection+red+teaming+LLM+agents+agentic+systems&limit=100&fields=title%2Cauthors%2Cyear%2Cvenue%2Cabstract%2CcitationCount%2CexternalIds%2Curl%2CopenAccessPdf",
+      "status": 200,
+      "bytes": 191734,
+      "elapsed_seconds": 2.87
+    },
+    {
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=testing+evaluation+fault+injection+red+teaming+LLM+agents+agentic+systems&per_page=100&filter=type%3Aarticle%2Cfrom_publication_date%3A2025-01-01%2Cto_publication_date%3A2026-12-31&api_key=%3Credacted%3E",
+      "status": 200,
+      "bytes": 1971023,
+      "elapsed_seconds": 3.371
+    },
+    {
+      "source": "crossref",
+      "url": "https://api.crossref.org/works?query.bibliographic=testing+evaluation+fault+injection+red+teaming+LLM+agents+agentic+systems&rows=100&filter=type%3Aproceedings-article%2Cfrom-pub-date%3A2025-01-01%2Cuntil-pub-date%3A2026-12-31&mailto=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 599167,
+      "elapsed_seconds": 2.321
+    },
+    {
+      "source": "arxiv",
+      "url": "https://export.arxiv.org/api/query?search_query=all%3Atesting+evaluation+fault+injection+red+teaming+LLM+agents+agentic+systems&start=0&max_results=100&sortBy=relevance",
+      "status": 406,
+      "error": "HTTP Error 406: Not Acceptable",
+      "elapsed_seconds": 0.458
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst69053.2026.00037?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 3174,
+      "elapsed_seconds": 0.812
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icse55347.2025.00223?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1491,
+      "elapsed_seconds": 0.716
+    }
+  ],
+  "papers": [
+    {
+      "title": "Observability and Fault Injection for LLM-Based Multi-Agent Systems in Software Engineering",
+      "authors": [
+        "Zahra Seyedghorban",
+        "Egor Klimov",
+        "Arie van Deursen",
+        "Annibale Panichella",
+        "Burcu Kulahcioglu Ozkan"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst69053.2026.00037",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.32,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst69053.2026.00037"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://arxiv.org/pdf/2608.24271",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "LLM-Agents Driven Automated Simulation Testing and Analysis of small Uncrewed Aerial Systems",
+      "authors": [
+        "Venkata Sai Aswath Duvvuru",
+        "Bohan Zhang",
+        "Michael Vierhauser",
+        "Ankit Agrawal"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)",
+      "doi": "10.1109/icse55347.2025.00223",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.32,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icse55347.2025.00223"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    }
+  ]
+}

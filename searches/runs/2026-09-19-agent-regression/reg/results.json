@@ -1,0 +1,372 @@
+{
+  "search": {
+    "query": "LLM agent regression testing version upgrade degradation",
+    "start_year": 2023,
+    "end_year": 2026,
+    "venues": "ICSE,FSE,ASE,ISSTA,ICST",
+    "limit": 100,
+    "peer_reviewed_conferences_only": true,
+    "searched_at": "2026-09-19T02:21:33.932363+00:00"
+  },
+  "configured": {
+    "contact_email": true,
+    "semantic_scholar_api_key": true,
+    "openalex_api_key": true,
+    "core_api_key": false,
+    "ieee_xplore_api_key": false
+  },
+  "source_errors": {
+    "dblp": "Remote end closed connection without response",
+    "arxiv": "HTTP Error 406: Not Acceptable"
+  },
+  "requests": [
+    {
+      "source": "dblp",
+      "url": "https://dblp.org/search/publ/api?q=LLM+agent+regression+testing+version+upgrade+degradation&format=json&h=100&c=0",
+      "status": null,
+      "error": "Remote end closed connection without response",
+      "elapsed_seconds": 52.366
+    },
+    {
+      "source": "semantic_scholar",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=LLM+agent+regression+testing+version+upgrade+degradation&limit=100&fields=title%2Cauthors%2Cyear%2Cvenue%2Cabstract%2CcitationCount%2CexternalIds%2Curl%2CopenAccessPdf",
+      "status": 200,
+      "bytes": 107616,
+      "elapsed_seconds": 1.231
+    },
+    {
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=LLM+agent+regression+testing+version+upgrade+degradation&per_page=100&filter=type%3Aarticle%2Cfrom_publication_date%3A2023-01-01%2Cto_publication_date%3A2026-12-31&api_key=%3Credacted%3E",
+      "status": 200,
+      "bytes": 2455073,
+      "elapsed_seconds": 3.077
+    },
+    {
+      "source": "crossref",
+      "url": "https://api.crossref.org/works?query.bibliographic=LLM+agent+regression+testing+version+upgrade+degradation&rows=100&filter=type%3Aproceedings-article%2Cfrom-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-12-31&mailto=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 523490,
+      "elapsed_seconds": 2.709
+    },
+    {
+      "source": "arxiv",
+      "url": "https://export.arxiv.org/api/query?search_query=all%3ALLM+agent+regression+testing+version+upgrade+degradation&start=0&max_results=100&sortBy=relevance",
+      "status": 406,
+      "error": "HTTP Error 406: Not Acceptable",
+      "elapsed_seconds": 0.579
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icse55347.2025.00179?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1410,
+      "elapsed_seconds": 0.705
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/ase63991.2025.00135?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2298,
+      "elapsed_seconds": 0.716
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst69053.2026.00037?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 3174,
+      "elapsed_seconds": 0.733
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst62969.2025.10989038?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2643,
+      "elapsed_seconds": 0.72
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst66402.2025.11512562?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 3881,
+      "elapsed_seconds": 0.611
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst60714.2024.00054?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 852,
+      "elapsed_seconds": 0.617
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.4108/eetsis.14497?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2514,
+      "elapsed_seconds": 0.616
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst69053.2026.00040?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1187,
+      "elapsed_seconds": 0.62
+    }
+  ],
+  "papers": [
+    {
+      "title": "A Multi-Agent Approach for REST API Testing with Semantic Graphs and LLM-Driven Inputs",
+      "authors": [
+        "Myeongsoo Kim",
+        "Tyler Stennett",
+        "Saurabh Sinha",
+        "Alessandro Orso"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)",
+      "doi": "10.1109/icse55347.2025.00179",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.3429,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icse55347.2025.00179"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Beyond Static GUI Agent: Evolving LLM-based GUI Testing via Dynamic Memory",
+      "authors": [
+        "Mengzhuo Chen",
+        "Zhe Liu",
+        "Chunyang Chen",
+        "Junjie Wang",
+        "Yangguang Xue",
+        "Boyu Wu",
+        "Yuekai Huang",
+        "Libin Wu",
+        "Qing Wang"
+      ],
+      "year": 2025,
+      "venue": "2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+      "doi": "10.1109/ase63991.2025.00135",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.3429,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/ase63991.2025.00135"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Observability and Fault Injection for LLM-Based Multi-Agent Systems in Software Engineering",
+      "authors": [
+        "Zahra Seyedghorban",
+        "Egor Klimov",
+        "Arie van Deursen",
+        "Annibale Panichella",
+        "Burcu Kulahcioglu Ozkan"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst69053.2026.00037",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2286,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst69053.2026.00037"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://arxiv.org/pdf/2608.24271",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Evaluation of the Choice of LLM in a Multi-Agent Solution for GUI-Test Generation",
+      "authors": [
+        "Stevan Tomic",
+        "Emil Alégroth",
+        "Maycel Isaac"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst62969.2025.10989038",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2286,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst62969.2025.10989038"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://bth.diva-portal.org/smash/get/diva2:1974470/FULLTEXT01",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Guide-LLM: An Embodied LLM Agent and Text-Based Topological Map for Robotic Guidance of People with Visual Impairments",
+      "authors": [
+        "Sangmim Song",
+        "Sarath Kodagoda",
+        "Amal Gunatilake",
+        "Marc G. Carmichael",
+        "Karthick Thiyagarajan",
+        "Jodi Martin"
+      ],
+      "year": 2025,
+      "venue": "2025 18th International Conference on Sensing Technology (ICST)",
+      "doi": "10.1109/icst66402.2025.11512562",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2286,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst66402.2025.11512562"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://arxiv.org/pdf/2410.20666",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Agile Regression Testing",
+      "authors": [
+        "Suddhasvatta Das"
+      ],
+      "year": 2024,
+      "venue": "2024 IEEE Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst60714.2024.00054",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2286,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst60714.2024.00054"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "CrossVerify: low-payload external validation signals for heterogeneous black-box LLM cascades",
+      "authors": [
+        "Li Luo",
+        "Keng Yap Ng",
+        "Wei Chong Choo"
+      ],
+      "year": 2026,
+      "venue": "ICST Transactions on Scalable Information Systems",
+      "doi": "10.4108/eetsis.14497",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1143,
+      "sources": [
+        "openalex",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.4108/eetsis.14497",
+        "https://openalex.org/W7213306194"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://publications.eai.eu/index.php/sis/article/download/14497/4251",
+          "source": "openalex"
+        },
+        {
+          "url": "https://publications.eai.eu/index.php/sis/article/download/14497/4251",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "How well LLM-based test generation techniques perform with newer LLM versions?",
+      "authors": [
+        "Michael Konstantinou",
+        "Renzo Degiovanni",
+        "Mike Papadakis"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst69053.2026.00040",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1143,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst69053.2026.00040"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    }
+  ]
+}

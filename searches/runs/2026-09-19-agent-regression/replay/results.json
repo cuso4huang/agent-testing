@@ -1,0 +1,400 @@
+{
+  "search": {
+    "query": "LLM agent trajectory replay regression testing",
+    "start_year": 2023,
+    "end_year": 2026,
+    "venues": "ICSE,FSE,ASE,ISSTA,ICST",
+    "limit": 100,
+    "peer_reviewed_conferences_only": true,
+    "searched_at": "2026-09-19T02:20:42.702319+00:00"
+  },
+  "configured": {
+    "contact_email": true,
+    "semantic_scholar_api_key": true,
+    "openalex_api_key": true,
+    "core_api_key": false,
+    "ieee_xplore_api_key": false
+  },
+  "source_errors": {
+    "dblp": "Expecting value: line 1 column 1 (char 0)",
+    "arxiv": "HTTP Error 406: Not Acceptable"
+  },
+  "requests": [
+    {
+      "source": "dblp",
+      "url": "https://dblp.org/search/publ/api?q=LLM+agent+trajectory+replay+regression+testing&format=json&h=100&c=0",
+      "status": 200,
+      "bytes": 2980,
+      "elapsed_seconds": 0.838
+    },
+    {
+      "source": "semantic_scholar",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=LLM+agent+trajectory+replay+regression+testing&limit=100&fields=title%2Cauthors%2Cyear%2Cvenue%2Cabstract%2CcitationCount%2CexternalIds%2Curl%2CopenAccessPdf",
+      "status": 200,
+      "bytes": 250758,
+      "elapsed_seconds": 1.439
+    },
+    {
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=LLM+agent+trajectory+replay+regression+testing&per_page=100&filter=type%3Aarticle%2Cfrom_publication_date%3A2023-01-01%2Cto_publication_date%3A2026-12-31&api_key=%3Credacted%3E",
+      "status": 200,
+      "bytes": 2306078,
+      "elapsed_seconds": 2.11
+    },
+    {
+      "source": "crossref",
+      "url": "https://api.crossref.org/works?query.bibliographic=LLM+agent+trajectory+replay+regression+testing&rows=100&filter=type%3Aproceedings-article%2Cfrom-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-12-31&mailto=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 545017,
+      "elapsed_seconds": 2.966
+    },
+    {
+      "source": "arxiv",
+      "url": "https://export.arxiv.org/api/query?search_query=all%3ALLM+agent+trajectory+replay+regression+testing&start=0&max_results=100&sortBy=relevance",
+      "status": 406,
+      "error": "HTTP Error 406: Not Acceptable",
+      "elapsed_seconds": 0.457
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1145/3803437.3806428?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 3053,
+      "elapsed_seconds": 0.708
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icse55347.2025.00179?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1410,
+      "elapsed_seconds": 0.82
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/ase63991.2025.00135?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2298,
+      "elapsed_seconds": 0.717
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1145/3696630.3728544?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1928,
+      "elapsed_seconds": 0.718
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst69053.2026.00037?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 3174,
+      "elapsed_seconds": 0.714
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst62969.2025.10989038?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 2643,
+      "elapsed_seconds": 0.635
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst60714.2024.00054?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 852,
+      "elapsed_seconds": 0.619
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst69053.2026.00040?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1187,
+      "elapsed_seconds": 0.61
+    },
+    {
+      "source": "unpaywall",
+      "url": "https://api.unpaywall.org/v2/10.1109/icst57152.2023.00031?email=zqhuang%40stu2022.jnu.edu.cn",
+      "status": 200,
+      "bytes": 1578,
+      "elapsed_seconds": 0.694
+    }
+  ],
+  "papers": [
+    {
+      "title": "TestAgent: A Multi-Agent LLM Framework for Repository-Level Unit Test Generation",
+      "authors": [
+        "Ye Shang",
+        "Quan-Jun Zhang",
+        "Zheng Zhan",
+        "Kent Huang",
+        "Chunrong Fang",
+        "Zhenyu Chen"
+      ],
+      "year": 2026,
+      "venue": "SIGSOFT FSE Companion",
+      "doi": "10.1145/3803437.3806428",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": "Automated unit test generation plays a critical role in maintaining software quality, yet existing LLM-based tools often struggle with limited repository-level context and rigid generation workflows. In this paper, we present TestAgent, a multi-agent tool implemented as a VS Code extension that automates the generation of high-quality unit tests for Java projects using repository-level Code Knowledge Graphs. Unlike existing tools that rely on coarse-grained workflows, TestAgent mirrors the structured practices of human developers, who typically analyze requirements before writing tests and review results afterward, by coordinating three specialized agents: a Planner to derive testing requirements, a Generator to synthesize executable code via tool-assisted retrieval, and a Reviewer to iteratively refine tests based on execution feedback. Evaluation on 1,451 methods across six Java projects demonstrates that TestAgent achieves a 92.34% line coverage, significantly outperforming baselines like EvoSuite and ChatUniTest. Furthermore, the tool successfully detects 154 real-world bugs with high precision (92.22%), demonstrating its practical utility for regression testing and bug discovery. The tool source code and demonstration are available at: https://github.com/iSEngLab/TestAgent-VSCode-Extension.",
+      "citation_count": null,
+      "relevance_score": 0.4,
+      "sources": [
+        "semantic_scholar"
+      ],
+      "landing_urls": [
+        "https://www.semanticscholar.org/paper/cd0c41d61b0edea243ec761bcffb2f8af116f7eb"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://doi.org/10.1145/3803437.3806428",
+          "source": "semantic_scholar"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "A Multi-Agent Approach for REST API Testing with Semantic Graphs and LLM-Driven Inputs",
+      "authors": [
+        "Myeongsoo Kim",
+        "Tyler Stennett",
+        "Saurabh Sinha",
+        "Alessandro Orso"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)",
+      "doi": "10.1109/icse55347.2025.00179",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.4,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icse55347.2025.00179"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Beyond Static GUI Agent: Evolving LLM-based GUI Testing via Dynamic Memory",
+      "authors": [
+        "Mengzhuo Chen",
+        "Zhe Liu",
+        "Chunyang Chen",
+        "Junjie Wang",
+        "Yangguang Xue",
+        "Boyu Wu",
+        "Yuekai Huang",
+        "Libin Wu",
+        "Qing Wang"
+      ],
+      "year": 2025,
+      "venue": "2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+      "doi": "10.1109/ase63991.2025.00135",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.4,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/ase63991.2025.00135"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Mutation-Guided LLM-based Test Generation at Meta",
+      "authors": [
+        "Mark Harman",
+        "Jillian Ritchey",
+        "Inna Harper",
+        "Shubho Sengupta",
+        "Ke Mao",
+        "Abhishek Gulati",
+        "Christopher N Foster",
+        "Hervé Robert"
+      ],
+      "year": 2025,
+      "venue": "SIGSOFT FSE Companion",
+      "doi": "10.1145/3696630.3728544",
+      "arxiv_id": "2501.12862",
+      "dblp_key": null,
+      "abstract": "This paper1 describes Meta's Automated Compliance Hardening (ACH) system for mutation-guided LLM-based test generation. ACH generates relatively few mutants (aka simulated faults), compared to traditional mutation testing. Instead, it focuses on generating currently undetected faults that are specific to an issue of concern. From these currently uncaught faults, ACH generates tests that can catch them, thereby 'killing' the mutants and consequently hardening the platform against regressions. We use privacy concerns to illustrate our approach, but ACH can harden code against any type of regression. In total, ACH was applied to 10,795 Android Kotlin classes in 7 software platforms deployed by Meta, from which it generated 9,095 mutants and 571 privacy-hardening test cases. ACH also deploys an LLM-based equivalent mutant detection agent that achieves a precision of 0.79 and a recall of 0.47 (rising to 0.95 and 0.96 with simple pre-processing). ACH was used in Messenger and WhatsApp test-a-thons where engineers accepted 73% of its tests, judging 36% to privacy relevant. We conclude that ACH hardens code against specific concerns and that, even when its tests do not directly tackle the specific concern, engineers find them useful for their other benefits.",
+      "citation_count": 61,
+      "relevance_score": 0.2667,
+      "sources": [
+        "semantic_scholar"
+      ],
+      "landing_urls": [
+        "https://www.semanticscholar.org/paper/2469e88c35a8735341d5a8d40df9e27ff6100db3"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_with_preprint",
+      "access_status": "abstract_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Observability and Fault Injection for LLM-Based Multi-Agent Systems in Software Engineering",
+      "authors": [
+        "Zahra Seyedghorban",
+        "Egor Klimov",
+        "Arie van Deursen",
+        "Annibale Panichella",
+        "Burcu Kulahcioglu Ozkan"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst69053.2026.00037",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst69053.2026.00037"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://arxiv.org/pdf/2608.24271",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Evaluation of the Choice of LLM in a Multi-Agent Solution for GUI-Test Generation",
+      "authors": [
+        "Stevan Tomic",
+        "Emil Alégroth",
+        "Maycel Isaac"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst62969.2025.10989038",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref",
+        "unpaywall"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst62969.2025.10989038"
+      ],
+      "open_pdf_candidates": [
+        {
+          "url": "https://bth.diva-portal.org/smash/get/diva2:1974470/FULLTEXT01",
+          "source": "unpaywall"
+        }
+      ],
+      "version_status": "published_conference_version",
+      "access_status": "open_pdf_found",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "Agile Regression Testing",
+      "authors": [
+        "Suddhasvatta Das"
+      ],
+      "year": 2024,
+      "venue": "2024 IEEE Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst60714.2024.00054",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.2667,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst60714.2024.00054"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "How well LLM-based test generation techniques perform with newer LLM versions?",
+      "authors": [
+        "Michael Konstantinou",
+        "Renzo Degiovanni",
+        "Mike Papadakis"
+      ],
+      "year": 2026,
+      "venue": "2026 IEEE International Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst69053.2026.00040",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1333,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst69053.2026.00040"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    },
+    {
+      "title": "RIDA: Cross-App Record and Replay for Android",
+      "authors": [
+        "Jiayuan Liang",
+        "Sinan Wang",
+        "Xiangbo Deng",
+        "Yepang Liu"
+      ],
+      "year": 2023,
+      "venue": "2023 IEEE Conference on Software Testing, Verification and Validation (ICST)",
+      "doi": "10.1109/icst57152.2023.00031",
+      "arxiv_id": null,
+      "dblp_key": null,
+      "abstract": null,
+      "citation_count": null,
+      "relevance_score": 0.1333,
+      "sources": [
+        "crossref"
+      ],
+      "landing_urls": [
+        "https://doi.org/10.1109/icst57152.2023.00031"
+      ],
+      "open_pdf_candidates": [],
+      "version_status": "published_conference_version",
+      "access_status": "metadata_only",
+      "downloaded_file": null,
+      "download_error": null
+    }
+  ]
+}

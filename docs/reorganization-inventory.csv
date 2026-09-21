@@ -1,0 +1,13 @@
+area,file_count,size,status,notes
+docs,4,52K,tracked,"maintenance plan, dedup record, research guidelines, portfolio notes"
+literature/papers,100,406M,partly-ignored,"canonical paper library; downloaded PDFs remain ignored unless historically tracked"
+literature/notes,59,516K,tracked,"one structured note per paper"
+literature/evidence,4,168K,tracked,"evidence, screening, software-agent evidence, verification exceptions"
+literature/reading-packs,19,1.2M,tracked,"core and trajectory/evaluation reading routes; PDFs link to papers/"
+literature/bibliography,1,64K,tracked,"references.bib"
+reviews,33,608K,mixed,"overview, topic reports and audits"
+searches,17,332K,mixed,"human-readable logs and raw CSV/JSON runs"
+outputs,73,22M,mostly-ignored,"historical presentations, reports, renderings and one tracked PDF"
+assets/source,2,4.3M,untracked,"MinerU HTML source and translated source"
+scripts,1,28K,tracked,"reclassify_methodology.py"
+tmp,10,2.7M,ignored,"local rendering and temporary material"

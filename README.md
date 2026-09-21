@@ -2,7 +2,7 @@
 
 这是一个围绕 **AI 智能体（AI Agent）测试与质量保障** 的中文文献调研仓库，重点关注具有规划、工具调用、记忆、环境交互或多智能体协作能力的 Agentic System。
 
-仓库不只是论文文件合集，还整理了系统综述、逐篇阅读笔记、证据表、检索与筛选记录、BibTeX，以及面向研究选题和工程实践的专题报告。当前资料主要覆盖 2020–2026 年文献，重点关注 2023 年以来的研究进展；最近一次综合核验截至 **2026-08-18**。
+仓库不只是论文文件合集，还整理了系统综述、逐篇阅读笔记、证据表、检索与筛选记录、BibTeX，以及面向研究选题和工程实践的专题报告。当前资料主要覆盖 2020–2026 年文献，重点关注 2023 年以来的研究进展。仓库结构整理截至 **2026-09-21**；具体证据日期以各报告和证据表为准。
 
 ## 研究内容
 
@@ -21,36 +21,29 @@
 
 如果是第一次浏览，建议按以下顺序阅读：
 
-1. [研究进展总览](research/2026-agent-testing-research-progress-review.md)：截至 2026-08-18 的方法谱系、代表工作与前沿方向。
-2. [系统化文献综述](research/agent-testing-review.md)：了解概念边界、测试对象、质量属性和主要方法。
-3. [扩展综述](research/2024-2026-expanded-agent-testing-review.md)：查看 2024–2026 年扩展证据和八类方法比较。
-4. [精选论文阅读包](toRead/README.md)：通过 8 篇论文快速建立端到端测试框架。
-5. [研究方向](research/research-directions.md)：了解可实施的研究空白与项目选题。
+1. [研究进展总览](reviews/overview/2026-agent-testing-research-progress-review.md)：查看方法谱系、代表工作与前沿方向。
+2. [系统化文献综述](reviews/overview/agent-testing-review.md)：了解概念边界、测试对象、质量属性和主要方法。
+3. [扩展综述](reviews/overview/2024-2026-expanded-agent-testing-review.md)：查看 2024–2026 年扩展证据和八类方法比较。
+4. [精选论文阅读包](literature/reading-packs/core-agent-testing/README.md)：通过 8 篇论文快速建立端到端测试框架。
+5. [研究方向](reviews/overview/research-directions.md)：了解可实施的研究空白与项目选题。
 
-需要核查具体论文时，可继续查看 [结构化阅读笔记](research/notes)、[证据表](research/evidence/evidence-table.csv) 和 [参考文献库](research/references.bib)。
+需要核查具体论文时，可继续查看 [结构化阅读笔记](literature/notes)、[证据表](literature/evidence/evidence-table.csv) 和 [参考文献库](literature/bibliography/references.bib)。
 
 ## 仓库结构
 
 ```text
 .
 ├── README.md                         # 仓库入口
-├── research/
-│   ├── agent-testing-review.md       # 系统化文献综述
-│   ├── 2026-agent-testing-*.md       # 最新进展与专题报告
-│   ├── research-directions.md        # 研究空白与项目方向
-│   ├── notes/                        # 单篇论文结构化笔记
-│   ├── evidence/                     # 证据表、筛选记录与核验例外
-│   ├── references.bib                # 已核验 BibTeX
-│   └── scripts/                      # 文献数据整理脚本
-├── toRead/                           # 8 篇精选论文、笔记及阅读路线
-├── docs/                             # 工程实践与作品集相关调研
-├── 自己找的论文/                     # 补充收集的论文 PDF
-├── output/pdf/                       # 生成的调研报告 PDF
-├── VeriGrey_Greybox_Agent_Validation.pdf
-└── 智能体测试文献调研提示词.md       # 本项目使用的调研规范
+├── literature/                       # 论文、笔记、证据、引用和阅读包
+├── reviews/                          # 领域综述、专题报告和审计
+├── searches/                         # 检索日志与原始检索结果
+├── outputs/                          # PPTX、PDF、DOCX 等生成物
+├── assets/source/                    # 外部源材料（如 HTML）
+├── docs/                             # 维护规范和工程实践调研
+└── scripts/                          # 可重复运行的整理脚本
 ```
 
-当前 `research/notes/` 中有 59 篇单篇笔记；宽口径证据库包含 111 条记录，其中 58 篇标记为已阅读全文。不同报告采用的纳入范围和统计口径并不完全相同，引用数字时请以对应报告中的范围说明为准。
+当前 `literature/notes/` 中有 59 篇单篇笔记；宽口径证据库包含 111 条记录，其中 58 篇标记为已阅读全文。不同报告采用的纳入范围和统计口径并不完全相同，引用数字时请以对应报告中的范围说明为准。
 
 ## 研究方法与证据规范
 
@@ -63,7 +56,7 @@
 - 在筛选表中记录文献的纳入、排除及原因；
 - 不直接横向比较定义不同的 success rate、ASR、cost 或 judge 分数。
 
-详细流程见 [调研提示词](智能体测试文献调研提示词.md)，检索过程见 [检索日志](research/search-log.md)，逐篇证据等级见 [证据表](research/evidence/evidence-table.csv)。
+详细流程见 [调研规范](docs/research-guidelines.md)，检索过程见 [检索日志](searches/logs/search-log.md)，逐篇证据等级见 [证据表](literature/evidence/evidence-table.csv)。
 
 ## 方法分类
 
@@ -83,7 +76,7 @@
 ## 使用说明
 
 - Markdown 报告可直接在 GitHub 或任意 Markdown 阅读器中查看。
-- BibTeX 条目集中维护在 `research/references.bib`。
+- BibTeX 条目集中维护在 `literature/bibliography/references.bib`。
 - CSV 证据表适合使用表格软件、Python/pandas 或 R 继续分析。
 - PDF 仅用于个人学习与学术研究；版权归原作者及出版机构所有，请勿将仓库中的副本用于商业传播。
 - 该领域更新较快，引用前建议再次核验论文版本、发表状态和实验数据。
@@ -91,4 +84,3 @@
 ## 贡献
 
 欢迎补充新论文、纠正元数据或完善阅读笔记。建议新增内容同时更新对应的证据表、筛选记录、BibTeX 和综述，并明确全文可得性及发表状态，以保持资料之间的一致性和可追溯性。
-
